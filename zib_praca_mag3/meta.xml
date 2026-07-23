@@ -1,0 +1,16 @@
+<meta>
+    <info
+        author="Adim129"
+        version="1.0"
+        type="script"
+        name="Forklift Job"
+    />
+
+
+
+    <script src="server.lua" type="server"/>
+    <script src="client.lua" type="client"/>
+	<file src="Borscha-Regular.ttf" />
+	<file src="bg.png" />
+	<file src="towar.mp3" />
+</meta>

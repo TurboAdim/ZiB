@@ -1,0 +1,11 @@
+<meta>
+    <info author="Adim129" type="script" name="Pomoc Drogowa"/>
+
+    <script src="config.lua" type="shared"/>
+
+    <script src="client.lua" type="client"/>
+    <script src="server.lua" type="server"/>
+
+    <file src="files/bg.png"/>
+    <file src="files/Borscha-Regular.ttf"/>
+</meta>

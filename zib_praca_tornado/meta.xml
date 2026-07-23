@@ -1,0 +1,14 @@
+<meta>
+    <info author="Adim129" version="1.0" type="script"/>
+
+    <script src="config.lua" type="shared"/>
+
+    <script src="client.lua" type="client"/>
+    <script src="server.lua" type="server"/>
+
+    <file src="files/bg.png"/>
+	<file src="files/bip.mp3"/>
+	<file src="files/muzyka.mp3"/>
+    <file src="files/Borscha-Regular.ttf"/>
+</meta>
+
