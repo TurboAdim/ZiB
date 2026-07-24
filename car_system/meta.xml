@@ -1,0 +1,80 @@
+﻿<meta>
+    <info author="MightDragon" name="Vehicle Manager" version="07.09.2021" type="script" />
+    <min_mta_version server="1.3.4-0.00000" client="1.5.6-9.18728" />
+
+    <include resource="mysql" />
+
+    <oop>true</oop>
+    
+    <script type="client" cache="false" src="client/util.lua" />   
+    <script type="shared" cache="false" src="shared/config.lua" />
+    <script type="shared" cache="false" src="shared/shared.lua" />
+    <script type="shared" cache="false" src="shared/cars.lua" />
+    <script type="shared" cache="false" src="shared/shop.lua" />
+     
+    <script type="client" cache="false" src="client/client.lua" />
+    <script type="client" cache="false" src="client/client_interchange.lua" />
+     
+    <script type="server" cache="false" src="server/tables.lua" />
+    <script type="server" cache="false" src="server/server.lua" />
+    <script type="server" cache="false" src="server/paintjobs.lua" />
+    <script type="server" cache="false" src="server/mysql.lua" />
+    <script type="server" cache="false" src="server/server_interchange.lua" />
+
+    <file src="assets/images/main.png" />
+    <file src="assets/images/main2.png" />
+    <file src="assets/images/line.png" />
+
+    <file src="assets/images/button.png" />
+    <file src="assets/images/button_null.png" />
+
+    <file src="assets/images/button_respawn.png" />
+    <file src="assets/images/button_null_respawn.png" />
+
+    <file src="assets/images/button_remove.png" />
+    <file src="assets/images/button_null_remove.png" />
+
+    <file src="assets/images/button_lock.png" />
+    <file src="assets/images/button_null_lock.png" />
+
+    <file src="assets/images/button_sell.png" />
+    <file src="assets/images/button_null_sell.png" />
+
+    <file src="assets/images/button_map.png" />
+    <file src="assets/images/button_null_map.png" />
+
+    <file src="assets/images/rectangle.png" />
+
+    <file src="assets/images/sale/main.png" />
+    <file src="assets/images/sale/close.png" />
+
+    <file src="assets/fonts/regular.ttf" />
+
+    <export type="shared" function="convertPlateIDtoLicensep" /> 
+    <export type="shared" function="getVehicleModName" />
+    <export type="shared" function="getCarPrice" />
+    <export type="shared" function="getShopTable" />
+    <export type="shared" function="getCarPrivod" />
+    <export type="shared" function="getCarIconImg" />
+    <export type="shared" function="getCarFuelScale" />
+    <export type="shared" function="getCarMaxSpeed" />
+    
+    <export type="server" function="buyVehicleForPlayer" />
+    <export type="server" function="giveVehicleForPlayer" />
+    <export type="server" function="BuyVehicleByUsed" />
+    <export type="server" function="changeNomer" />
+    <export type="server" function="checkNomerExistance" />
+    <export type="server" function="destroyVehicle" />
+    <export type="server" function="generateNumberplate" />
+    <export type="server" function="saveCarData" />
+    <export type="server" function="updateVehicleInfo" />
+    <export type="server" function="wipeAccount" />
+    <export type="server" function="addPoliceCar" />
+    <export type="server" function="removePoliceCar" />
+    <export type="server" function="getPoliceCarOwners" />
+    <export type="server" function="DonateAuto" />
+
+    <export type="server" function="policeRemoveCar" />
+    <export type="server" function="addBase" />
+    <export function="addPoliceBase" type="server"/>
+</meta>

@@ -1,0 +1,31 @@
+<meta>
+    <info author="Wherry, CCDPlanet Modellers, Daeman" version="17-12-29" name="Car components tuning garage" type="script"/>
+    <oop>true</oop>
+
+
+    <script type="shared" src="shared/utils.lua"/>
+    <script type="shared" src="shared/config.lua"/>
+    <script type="shared" src="shared/components_table.lua"/>
+    <script type="shared" src="shared/components.lua"/>
+    <script type="client" src="client/gui.lua"/>
+    <script type="client" src="client/camera.lua"/>
+    <script type="client" src="client/enter_exit.lua"/>
+    <script type="client" src="client/main.lua"/>
+    <script type="client" src="client/garage_doors.lua"/>
+    <!-- <script type="shared" cache="false" src="shared/utils.lua"/> -->
+    <!-- <script type="shared" cache="false" src="shared/config.lua"/> -->
+    <!-- <script type="shared" cache="false" src="shared/components_table.lua"/> -->
+    <!-- <script type="shared" cache="false" src="shared/components.lua"/> -->
+    <!-- <script type="client" cache="false" src="client/gui.lua"/> -->
+    <!-- <script type="client" cache="false" src="client/camera.lua"/> -->
+    <!-- <script type="client" cache="false" src="client/enter_exit.lua"/> -->
+    <!-- <script type="client" cache="false" src="client/main.lua"/> -->
+    <!-- <script type="client" cache="false" src="client/garage_doors.lua"/> -->
+
+
+    <script type="server" src="server/dimensions.lua"/>
+    <script type="server" src="server/enter_exit.lua"/>
+    <script type="server" src="server/buying.lua"/>
+
+    <export type="shared" function="getKitComponentId"/>
+</meta>
