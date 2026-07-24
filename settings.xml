@@ -1,0 +1,6 @@
+<settings>
+    <setting name="*editor_main.mapResourceOrganizationalDirectory" value='[&quot;none&quot;]'></setting>
+    <setting name="*freeroam.welcometextonstart" value='[&quot;true&quot;]'></setting>
+    <setting name="*freeroam.spawnmaponstart" value='[&quot;true&quot;]'></setting>
+    <setting name="*freeroam.spawnmapondeath" value='[&quot;false&quot;]'></setting>
+</settings>

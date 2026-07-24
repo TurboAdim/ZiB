@@ -1,0 +1,1967 @@
+﻿<acl>
+    <group name="Everyone">
+        <acl name="Default"></acl>
+        <object name="user.*"></object>
+        <object name="resource.*"></object>
+    </group>
+    <group name="Police">
+        <acl name="Police"></acl>
+        <object name="user.Adim129"></object>
+        <object name="user.Adim129X"></object>
+        <object name="user.Zagadka"></object>
+        <object name="user.PanZagadka"></object>
+        <object name="user.PanZagadkaX"></object>
+    </group>
+    <group name="Trainee">
+        <acl name="Trainee"></acl>
+        <object name="user.Adim129"></object>
+        <object name="user.Adim129X"></object>
+        <object name="user.Zagadka"></object>
+        <object name="user.PanZagadka"></object>
+        <object name="user.PanZagadkaX"></object>
+    </group>
+    <group name="CheckedModer">
+        <acl name="Trainee"></acl>
+        <acl name="Moderator"></acl>
+        <acl name="CheckedModer"></acl>
+        <acl name="mp"></acl>
+        <object name="user.Adim129"></object>
+        <object name="user.Adim129X"></object>
+        <object name="user.Zagadka"></object>
+        <object name="user.PanZagadka"></object>
+        <object name="user.PanZagadkaX"></object>
+    </group>
+    <group name="Administrator">
+        <acl name="Trainee"></acl>
+        <acl name="Moderator"></acl>
+        <acl name="CheckedModer"></acl>
+        <acl name="mp"></acl>
+        <object name="user.Adim129"></object>
+        <object name="user.Adim129X"></object>
+        <object name="user.Zagadka"></object>
+        <object name="user.PanZagadka"></object>
+        <object name="user.PanZagadkaX"></object>
+    </group>
+    <group name="Admin">
+        <acl name="Trainee"></acl>
+        <acl name="Moderator"></acl>
+        <acl name="CheckedModer"></acl>
+        <acl name="mp"></acl>
+        <object name="user.Adim129"></object>
+        <object name="user.Adim129X"></object>
+        <object name="user.Bebek"></object>
+        <object name="user.Zagadka"></object>
+        <object name="user.PanZagadka"></object>
+        <object name="user.PanZagadkaX"></object>
+    </group>
+    <group name="admin">
+        <acl name="Trainee"></acl>
+        <acl name="Moderator"></acl>
+        <acl name="CheckedModer"></acl>
+        <acl name="mp"></acl>
+        <object name="user.Adim129"></object>
+        <object name="user.Adim129X"></object>
+        <object name="user.Zagadka"></object>
+        <object name="user.PanZagadka"></object>
+        <object name="user.PanZagadkaX"></object>
+    </group>
+    <group name="GLAdmin">
+        <acl name="Trainee"></acl>
+        <acl name="Moderator"></acl>
+        <acl name="CheckedModer"></acl>
+        <acl name="GLAdmin"></acl>
+        <acl name="mp"></acl>
+        <acl name="Default"></acl>
+        <object name="resource.admin"></object>
+        <object name="resource.antiafk"></object>
+        <object name="resource.database_backup"></object>
+        <object name="resource.handmoneysaver"></object>
+        <object name="resource.main_login"></object>
+        <object name="resource.police_main"></object>
+        <object name="resource.police_chat"></object>
+        <object name="resource.police_kick_db"></object>
+        <object name="resource.printcoords"></object>
+        <object name="resource.main_freeroam"></object>
+        <object name="resource.kick"></object>
+        <object name="resource.zz"></object>
+        <object name="resource.renameAcc"></object>
+        <object name="resource.admincmd"></object>
+        <object name="resource.start2"></object>
+        <object name="user.Adim129"></object>
+        <object name="user.Adim129X"></object>
+        <object name="user.Zagadka"></object>
+        <object name="user.PanZagadka"></object>
+        <object name="user.PanZagadkaX"></object>
+    </group>
+    <group name="Console">
+        <acl name="Trainee"></acl>
+        <acl name="Moderator"></acl>
+        <acl name="CheckedModer"></acl>
+        <acl name="GLAdmin"></acl>
+        <acl name="Console"></acl>
+        <acl name="GLAdministrator"></acl>
+        <object name="resource.autorestart"></object>
+        <object name="user.Adim129"></object>
+        <object name="user.Console"></object>
+        <object name="user.Adim129X"></object>
+        <object name="user.Zagadka"></object>
+        <object name="user.PanZagadka"></object>
+        <object name="user.PanZagadkaX"></object>
+    </group>
+    <group name="autoGroup_acpanel">
+        <acl name="autoACL_acpanel"></acl>
+        <acl name="mp"></acl>
+        <object name="resource.acpanel"></object>
+    </group>
+    <group name="vip">
+        <object name="user.Arseko72"></object>
+        <object name="user.dimon2003"></object>
+        <object name="user.Adim129"></object>
+        <object name="user.Adim129X"></object>
+    </group>
+    <group name="freeroam">
+        <acl name="freeroam"></acl>
+        <object name="resource.freeroam"></object>
+        <object name="resource.eng"></object>
+    </group>
+    <group name="youtube">
+        <acl name="youtube"></acl>
+        <object name="user.Adim129"></object>
+        <object name="user.Adim129X"></object>
+    </group>
+    <group name="Girls">
+        <object name="user.Adim129"></object>
+        <object name="user.Adim129X"></object>
+    </group>
+    <group name="mp">
+        <acl name="mp"></acl>
+        <object name="user.Adim129"></object>
+        <object name="user.Adim129X"></object>
+    </group>
+    <group name="GLAdministrator">
+        <acl name="Trainee"></acl>
+        <acl name="Moderator"></acl>
+        <acl name="CheckedModer"></acl>
+        <acl name="mp"></acl>
+        <acl name="GLAdministrator"></acl>
+        <object name="resource.main_business"></object>
+        <object name="resource.vehicles_market"></object>
+        <object name="resource.vehicles_main"></object>
+        <object name="resource.vehicles_shop"></object>
+        <object name="resource.vehicles_numbers"></object>
+        <object name="resource.core"></object>
+        <object name="resource.day_cycle"></object>
+        <object name="resource.teams_main"></object>
+        <object name="resource.main_oil_derrick"></object>
+        <object name="resource.track_report"></object>
+        <object name="resource.main_ads"></object>
+        <object name="resource.main_freeroam"></object>
+        <object name="resource.main_casino"></object>
+        <object name="resource.jobs_main"></object>
+        <object name="resource.main_login"></object>
+        <object name="resource.main_admin"></object>
+        <object name="resource.main_exchange"></object>
+        <object name="resource.main_house"></object>
+        <object name="resource.logs"></object>
+        <object name="resource.tracking"></object>
+        <object name="user.Adim129"></object>
+        <object name="user.Adim129X"></object>
+    </group>
+    <group name="Auction">
+        <acl name="Auction"></acl>
+    </group>
+    <group name="BuyedGL">
+        <acl name="mp"></acl>
+        <acl name="Moderator"></acl>
+        <acl name="CheckedModer"></acl>
+        <acl name="BuyedGL"></acl>
+    </group>
+    <group name="autoGroup_admincmd">
+        <acl name="autoACL_admincmd"></acl>
+        <object name="resource.admincmd"></object>
+    </group>
+    <group name="Zam.GLAdmin">
+        <acl name="Trainee"></acl>
+        <acl name="Moderator"></acl>
+        <acl name="CheckedModer"></acl>
+        <acl name="GLAdmin"></acl>
+        <acl name="Zam.GLAdmin"></acl>
+        <acl name="Administrator"></acl>
+        <acl name="Default"></acl>
+    </group>
+    <group name="screens"></group>
+    <group name="sponsor">
+        <acl name="Trainee"></acl>
+        <acl name="Moderator"></acl>
+        <acl name="sponsor"></acl>
+        <acl name="mp"></acl>
+    </group>
+    <group name="sponsoradm">
+        <acl name="Trainee"></acl>
+        <acl name="Moderator"></acl>
+        <acl name="CheckedModer"></acl>
+        <acl name="mp"></acl>
+    </group>
+    <group name="vipsponsor">
+        <acl name="Trainee"></acl>
+        <acl name="Moderator"></acl>
+        <acl name="CheckedModer"></acl>
+        <acl name="GLAdmin"></acl>
+        <acl name="Zam.GLAdmin"></acl>
+        <acl name="mp"></acl>
+    </group>
+    <group name="pomsozd">
+        <acl name="Trainee"></acl>
+        <acl name="Moderator"></acl>
+        <acl name="CheckedModer"></acl>
+        <acl name="GLAdmin"></acl>
+        <acl name="Zam.GLAdmin"></acl>
+    </group>
+    <group name="Moderator">
+        <acl name="Moderator"></acl>
+    </group>
+    <group name="Money">
+        <object name="user.Adim129X"></object>
+    </group>
+    <acl name="Default">
+        <right name="command.aclrequest" access="false"></right>
+        <right name="command.addaccount" access="false"></right>
+        <right name="command.aexec" access="false"></right>
+        <right name="command.chgpass" access="false"></right>
+        <right name="command.chgmypass" access="false"></right>
+        <right name="command.debugdb" access="false"></right>
+        <right name="command.debugscript" access="true"></right>
+        <right name="command.delaccount" access="false"></right>
+        <right name="command.loadmodule" access="false"></right>
+        <right name="command.login" access="false"></right>
+        <right name="command.logout" access="false"></right>
+        <right name="command.refresh" access="false"></right>
+        <right name="command.refreshall" access="false"></right>
+        <right name="command.register" access="false"></right>
+        <right name="command.reloadmodule" access="false"></right>
+        <right name="command.shutdown" access="false"></right>
+        <right name="command.sver" access="false"></right>
+        <right name="command.unloadmodule" access="false"></right>
+        <right name="command.unregister" access="false"></right>
+        <right name="command.whois" access="false"></right>
+        <right name="command.whowas" access="false"></right>
+        <right name="general.http" access="false"></right>
+        <right name="general.ModifyOtherObjects" access="true"></right>
+        <right name="command.ban" access="false"></right>
+        <right name="command.banip" access="false"></right>
+        <right name="command.banserial" access="false"></right>
+        <right name="command.blendweather" access="false"></right>
+        <right name="command.blowvehicle" access="false"></right>
+        <right name="command.createteam" access="false"></right>
+        <right name="command.customize" access="false"></right>
+        <right name="command.delete" access="false"></right>
+        <right name="command.destroyteam" access="false"></right>
+        <right name="command.destroyvehicle" access="false"></right>
+        <right name="command.execute" access="false"></right>
+        <right name="command.freeze" access="false"></right>
+        <right name="command.givevehicle" access="false"></right>
+        <right name="command.giveweapon" access="false"></right>
+        <right name="command.jetpack" access="false"></right>
+        <right name="command.kick" access="false"></right>
+        <right name="command.listbans" access="false"></right>
+        <right name="command.listmessages" access="false"></right>
+        <right name="command.listresources" access="false"></right>
+        <right name="command.mute" access="false"></right>
+        <right name="command.readmessage" access="false"></right>
+        <right name="command.repair" access="false"></right>
+        <right name="command.restart" access="false"></right>
+        <right name="command.setarmour" access="false"></right>
+        <right name="command.setblurlevel" access="false"></right>
+        <right name="command.setcolor" access="false"></right>
+        <right name="command.setdimension" access="false"></right>
+        <right name="command.setfpslimit" access="false"></right>
+        <right name="command.setgame" access="false"></right>
+        <right name="command.setgamespeed" access="false"></right>
+        <right name="command.setgravity" access="false"></right>
+        <right name="command.setgroup" access="false"></right>
+        <right name="command.sethealth" access="false"></right>
+        <right name="command.setinterior" access="false"></right>
+        <right name="command.setmap" access="false"></right>
+        <right name="command.setmoney" access="false"></right>
+        <right name="command.setnick" access="false"></right>
+        <right name="command.setpaintjob" access="false"></right>
+        <right name="command.setpassword" access="false"></right>
+        <right name="command.setskin" access="false"></right>
+        <right name="command.setskygradient" access="false"></right>
+        <right name="command.setstat" access="false"></right>
+        <right name="command.setteam" access="false"></right>
+        <right name="command.settime" access="false"></right>
+        <right name="command.setwaveheight" access="false"></right>
+        <right name="command.setweather" access="false"></right>
+        <right name="command.setwelcome" access="false"></right>
+        <right name="command.shout" access="false"></right>
+        <right name="command.slap" access="false"></right>
+        <right name="command.spectate" access="false"></right>
+        <right name="command.start" access="false"></right>
+        <right name="command.stop" access="false"></right>
+        <right name="command.stopall" access="false"></right>
+        <right name="command.unban" access="false"></right>
+        <right name="command.unbanip" access="false"></right>
+        <right name="command.unbanserial" access="false"></right>
+        <right name="command.warp" access="false"></right>
+        <right name="function.shutdown" access="false"></right>
+        <right name="general.adminpanel" access="false"></right>
+        <right name="general.tab_players" access="false"></right>
+        <right name="general.tab_resources" access="false"></right>
+        <right name="general.tab_maps" access="false"></right>
+        <right name="general.tab_server" access="false"></right>
+        <right name="general.tab_bans" access="false"></right>
+        <right name="general.tab_adminchat" access="false"></right>
+    </acl>
+    <acl name="Trainee">
+        <right name="command.listmessages" access="true"></right>
+        <right name="command.readmessage" access="true"></right>
+        <right name="command.kick" access="true"></right>
+        <right name="command.mute" access="true"></right>
+        <right name="command.shout" access="true"></right>
+        <right name="command.spectate" access="true"></right>
+        <right name="command.togglerender" access="true"></right>
+        <right name="command.togglechat" access="true"></right>
+        <right name="command.toggletag" access="true"></right>
+        <right name="command.unmute" access="true"></right>
+        <right name="function.cancelAFK" access="true"></right>
+        <right name="general.adminpanel" access="true"></right>
+        <right name="general.tab_players" access="true"></right>
+        <right name="general.tab_adminchat" access="true"></right>
+        <right name="command.ban" access="false"></right>
+        <right name="command.banip" access="false"></right>
+        <right name="command.banserial" access="false"></right>
+        <right name="command.blendweather" access="false"></right>
+        <right name="command.blowvehicle" access="false"></right>
+        <right name="command.createteam" access="false"></right>
+        <right name="command.customize" access="false"></right>
+        <right name="command.delete" access="false"></right>
+        <right name="command.destroyteam" access="false"></right>
+        <right name="command.destroyvehicle" access="false"></right>
+        <right name="command.execute" access="false"></right>
+        <right name="command.freeze" access="false"></right>
+        <right name="command.givevehicle" access="false"></right>
+        <right name="command.giveweapon" access="false"></right>
+        <right name="command.listbans" access="false"></right>
+        <right name="command.listresources" access="false"></right>
+        <right name="command.repair" access="false"></right>
+        <right name="command.restart" access="false"></right>
+        <right name="command.setarmour" access="false"></right>
+        <right name="command.setblurlevel" access="false"></right>
+        <right name="command.setcolor" access="false"></right>
+        <right name="command.setdimension" access="false"></right>
+        <right name="command.setfpslimit" access="false"></right>
+        <right name="command.setgame" access="false"></right>
+        <right name="command.setgamespeed" access="false"></right>
+        <right name="command.setgravity" access="false"></right>
+        <right name="command.setgroup" access="false"></right>
+        <right name="command.sethealth" access="false"></right>
+        <right name="command.setinterior" access="false"></right>
+        <right name="command.setmap" access="false"></right>
+        <right name="command.setmoney" access="false"></right>
+        <right name="command.setnick" access="false"></right>
+        <right name="command.setpaintjob" access="false"></right>
+        <right name="command.setpassword" access="false"></right>
+        <right name="command.setskin" access="false"></right>
+        <right name="command.setskygradient" access="false"></right>
+        <right name="command.setstat" access="false"></right>
+        <right name="command.setteam" access="false"></right>
+        <right name="command.settime" access="false"></right>
+        <right name="command.setwaveheight" access="false"></right>
+        <right name="command.setweather" access="false"></right>
+        <right name="command.setwelcome" access="false"></right>
+        <right name="command.slap" access="false"></right>
+        <right name="command.start" access="false"></right>
+        <right name="command.stop" access="false"></right>
+        <right name="command.stopall" access="false"></right>
+        <right name="command.unban" access="false"></right>
+        <right name="command.unbanip" access="false"></right>
+        <right name="command.unbanserial" access="false"></right>
+        <right name="function.shutdown" access="false"></right>
+        <right name="general.tab_resources" access="false"></right>
+        <right name="general.tab_maps" access="false"></right>
+        <right name="general.tab_server" access="false"></right>
+        <right name="general.tab_bans" access="false"></right>
+        <right name="command.jetpack" access="true"></right>
+        <right name="command.warp" access="true"></right>
+    </acl>
+    <acl name="Moderator">
+        <right name="command.clearchat" access="true"></right>
+        <right name="command.freeze" access="true"></right>
+        <right name="command.jetpack" access="true"></right>
+        <right name="command.kick" access="false"></right>
+        <right name="command.listmessages" access="true"></right>
+        <right name="command.readmessage" access="false"></right>
+        <right name="command.mute" access="true"></right>
+        <right name="command.nicklogin" access="true"></right>
+        <right name="command.repair" access="true"></right>
+        <right name="command.shout" access="true"></right>
+        <right name="command.slap" access="true"></right>
+        <right name="command.spectate" access="true"></right>
+        <right name="command.togglerender" access="true"></right>
+        <right name="command.togglechat" access="true"></right>
+        <right name="command.toggletag" access="true"></right>
+        <right name="command.viewloginfile" access="true"></right>
+        <right name="command.warp" access="true"></right>
+        <right name="command.whois" access="true"></right>
+        <right name="command.whowas" access="true"></right>
+        <right name="function.cancelAFK" access="true"></right>
+        <right name="general.adminpanel" access="false"></right>
+        <right name="general.tab_players" access="false"></right>
+        <right name="general.tab_adminchat" access="false"></right>
+        <right name="command.ban" access="false"></right>
+        <right name="command.banip" access="false"></right>
+        <right name="command.banserial" access="false"></right>
+        <right name="command.blendweather" access="false"></right>
+        <right name="command.blowvehicle" access="false"></right>
+        <right name="command.createteam" access="false"></right>
+        <right name="command.customize" access="false"></right>
+        <right name="command.delete" access="false"></right>
+        <right name="command.destroyteam" access="false"></right>
+        <right name="command.destroyvehicle" access="false"></right>
+        <right name="command.execute" access="false"></right>
+        <right name="command.givevehicle" access="false"></right>
+        <right name="command.giveweapon" access="false"></right>
+        <right name="command.listbans" access="false"></right>
+        <right name="command.listresources" access="false"></right>
+        <right name="command.restart" access="false"></right>
+        <right name="command.setarmour" access="false"></right>
+        <right name="command.setblurlevel" access="false"></right>
+        <right name="command.setcolor" access="false"></right>
+        <right name="command.setfpslimit" access="false"></right>
+        <right name="command.setgame" access="false"></right>
+        <right name="command.setgamespeed" access="false"></right>
+        <right name="command.setgravity" access="false"></right>
+        <right name="command.setgroup" access="false"></right>
+        <right name="command.sethealth" access="false"></right>
+        <right name="command.setmap" access="false"></right>
+        <right name="command.setmoney" access="false"></right>
+        <right name="command.setpaintjob" access="false"></right>
+        <right name="command.setpassword" access="false"></right>
+        <right name="command.setskin" access="false"></right>
+        <right name="command.setskygradient" access="false"></right>
+        <right name="command.setstat" access="false"></right>
+        <right name="command.setteam" access="false"></right>
+        <right name="command.settime" access="false"></right>
+        <right name="command.setwaveheight" access="false"></right>
+        <right name="command.setweather" access="false"></right>
+        <right name="command.setwelcome" access="false"></right>
+        <right name="command.start" access="false"></right>
+        <right name="command.stop" access="false"></right>
+        <right name="command.stopall" access="false"></right>
+        <right name="command.unban" access="false"></right>
+        <right name="command.unbanip" access="false"></right>
+        <right name="command.unbanserial" access="false"></right>
+        <right name="function.shutdown" access="false"></right>
+        <right name="general.tab_resources" access="false"></right>
+        <right name="general.tab_maps" access="false"></right>
+        <right name="general.tab_server" access="false"></right>
+        <right name="general.tab_bans" access="false"></right>
+        <right name="command.deletead" access="true"></right>
+        <right name="command.adinfo" access="true"></right>
+        <right name="command.bank" access="true"></right>
+        <right name="command.clearcar" access="true"></right>
+        <right name="command.setnick" access="false"></right>
+        <right name="command.setdimension" access="false"></right>
+        <right name="command.setinterior" access="false"></right>
+        <right name="command.warpmap" access="true"></right>
+    </acl>
+    <acl name="CheckedModer">
+        <right name="command.ban" access="true"></right>
+        <right name="command.banip" access="true"></right>
+        <right name="command.banserial" access="true"></right>
+        <right name="command.listbans" access="true"></right>
+        <right name="command.opensto" access="true"></right>
+        <right name="command.unban" access="true"></right>
+        <right name="command.unbanip" access="true"></right>
+        <right name="command.unbanserial" access="true"></right>
+        <right name="general.tab_bans" access="true"></right>
+        <right name="command.blendweather" access="false"></right>
+        <right name="command.blowvehicle" access="false"></right>
+        <right name="command.createteam" access="false"></right>
+        <right name="command.customize" access="false"></right>
+        <right name="command.delete" access="false"></right>
+        <right name="command.destroyteam" access="false"></right>
+        <right name="command.destroyvehicle" access="true"></right>
+        <right name="command.execute" access="false"></right>
+        <right name="command.freeze" access="false"></right>
+        <right name="command.giveweapon" access="true"></right>
+        <right name="command.jetpack" access="true"></right>
+        <right name="command.kick" access="false"></right>
+        <right name="command.listmessages" access="false"></right>
+        <right name="command.listresources" access="false"></right>
+        <right name="command.mute" access="true"></right>
+        <right name="command.readmessage" access="false"></right>
+        <right name="command.repair" access="false"></right>
+        <right name="command.restart" access="false"></right>
+        <right name="command.setarmour" access="true"></right>
+        <right name="command.setblurlevel" access="false"></right>
+        <right name="command.setcolor" access="false"></right>
+        <right name="command.setdimension" access="false"></right>
+        <right name="command.setfpslimit" access="false"></right>
+        <right name="command.setgame" access="false"></right>
+        <right name="command.setgamespeed" access="false"></right>
+        <right name="command.setgravity" access="false"></right>
+        <right name="command.setgroup" access="false"></right>
+        <right name="command.sethealth" access="true"></right>
+        <right name="command.setinterior" access="false"></right>
+        <right name="command.setmap" access="false"></right>
+        <right name="command.setmoney" access="false"></right>
+        <right name="command.setnick" access="true"></right>
+        <right name="command.setpaintjob" access="false"></right>
+        <right name="command.setpassword" access="false"></right>
+        <right name="command.setskin" access="true"></right>
+        <right name="command.setskygradient" access="false"></right>
+        <right name="command.setstat" access="false"></right>
+        <right name="command.setteam" access="false"></right>
+        <right name="command.settime" access="false"></right>
+        <right name="command.setwaveheight" access="false"></right>
+        <right name="command.setweather" access="false"></right>
+        <right name="command.setwelcome" access="false"></right>
+        <right name="command.shout" access="false"></right>
+        <right name="command.slap" access="false"></right>
+        <right name="command.spectate" access="false"></right>
+        <right name="command.start" access="false"></right>
+        <right name="command.stop" access="false"></right>
+        <right name="command.stopall" access="false"></right>
+        <right name="command.warp" access="false"></right>
+        <right name="function.shutdown" access="false"></right>
+        <right name="general.adminpanel" access="false"></right>
+        <right name="general.tab_players" access="false"></right>
+        <right name="general.tab_resources" access="false"></right>
+        <right name="general.tab_maps" access="false"></right>
+        <right name="general.tab_server" access="false"></right>
+        <right name="general.tab_adminchat" access="false"></right>
+        <right name="command.banpanel" access="true"></right>
+        <right name="command.policelist" access="true"></right>
+        <right name="command.clearcar" access="true"></right>
+        <right name="command.givevehicle" access="false"></right>
+        <right name="command.toggletag" access="true"></right>
+        <right name="command.warpmap" access="true"></right>
+    </acl>
+    <acl name="GLAdmin">
+        <right name="command.login" access="true"></right>
+        <right name="command.logout" access="true"></right>
+        <right name="command.refresh" access="true"></right>
+        <right name="command.refreshall" access="true"></right>
+        <right name="command.register" access="true"></right>
+        <right name="general.ModifyOtherObjects" access="true"></right>
+        <right name="general.http" access="true"></right>
+        <right name="command.shutdown" access="true"></right>
+        <right name="command.install" access="true"></right>
+        <right name="command.aexec" access="true"></right>
+        <right name="command.debugscript" access="true"></right>
+        <right name="command.upgrade" access="true"></right>
+        <right name="command.crun" access="true"></right>
+        <right name="command.srun" access="true"></right>
+        <right name="command.run" access="true"></right>
+        <right name="command.aclrequest" access="true"></right>
+        <right name="command.authserial" access="true"></right>
+        <right name="command.reloadacl" access="true"></right>
+        <right name="command.stopall" access="true"></right>
+        <right name="command.delaccount" access="true"></right>
+        <right name="command.chgpass" access="true"></right>
+        <right name="function.addBan" access="true"></right>
+        <right name="function.setUnbanTime" access="true"></right>
+        <right name="function.setBanAdmin" access="true"></right>
+        <right name="function.setBanReason" access="true"></right>
+        <right name="function.setBanNick" access="true"></right>
+        <right name="function.removeBan" access="true"></right>
+        <right name="function.reloadBans" access="true"></right>
+        <right name="function.executeCommandHandler" access="true"></right>
+        <right name="function.setServerPassword" access="true"></right>
+        <right name="function.getServerPassword" access="true"></right>
+        <right name="function.createResource" access="true"></right>
+        <right name="function.copyResource" access="true"></right>
+        <right name="function.addResourceMap" access="true"></right>
+        <right name="function.addResourceConfig" access="true"></right>
+        <right name="function.removeResourceFile" access="true"></right>
+        <right name="function.setResourceDefaultSetting" access="true"></right>
+        <right name="function.removeResourceDefaultSetting" access="true"></right>
+        <right name="function.aclReload" access="true"></right>
+        <right name="function.aclSave" access="true"></right>
+        <right name="function.aclCreate" access="true"></right>
+        <right name="function.aclDestroy" access="true"></right>
+        <right name="function.aclSetRight" access="true"></right>
+        <right name="function.aclRemoveRight" access="true"></right>
+        <right name="function.aclCreateGroup" access="true"></right>
+        <right name="function.aclDestroyGroup" access="true"></right>
+        <right name="function.aclGroupAddACL" access="true"></right>
+        <right name="function.aclGroupRemoveACL" access="true"></right>
+        <right name="function.aclGroupAddObject" access="true"></right>
+        <right name="function.aclGroupRemoveObject" access="true"></right>
+        <right name="function.refreshResources" access="true"></right>
+        <right name="function.setServerConfigSetting" access="true"></right>
+        <right name="function.updateResourceACLRequest" access="true"></right>
+        <right name="function.shutdown" access="true"></right>
+        <right name="function.setPlayerScriptDebugLevel" access="true"></right>
+        <right name="function.removeAccount" access="true"></right>
+        <right name="general.adminpanel" access="true"></right>
+        <right name="general.tab_players" access="true"></right>
+        <right name="general.tab_resources" access="true"></right>
+        <right name="general.tab_maps" access="true"></right>
+        <right name="general.tab_server" access="true"></right>
+        <right name="general.tab_bans" access="true"></right>
+        <right name="general.tab_adminchat" access="true"></right>
+        <right name="command.kick" access="true"></right>
+        <right name="command.freeze" access="true"></right>
+        <right name="command.mute" access="true"></right>
+        <right name="command.setnick" access="true"></right>
+        <right name="command.shout" access="true"></right>
+        <right name="command.spectate" access="true"></right>
+        <right name="command.slap" access="true"></right>
+        <right name="command.setgroup" access="true"></right>
+        <right name="command.sethealth" access="true"></right>
+        <right name="command.setarmour" access="true"></right>
+        <right name="command.setmoney" access="true"></right>
+        <right name="command.setskin" access="true"></right>
+        <right name="command.setteam" access="true"></right>
+        <right name="command.giveweapon" access="true"></right>
+        <right name="command.setstat" access="true"></right>
+        <right name="command.jetpack" access="true"></right>
+        <right name="command.warp" access="true"></right>
+        <right name="command.setdimension" access="true"></right>
+        <right name="command.setinterior" access="true"></right>
+        <right name="command.createteam" access="true"></right>
+        <right name="command.destroyteam" access="true"></right>
+        <right name="command.givevehicle" access="true"></right>
+        <right name="command.repair" access="true"></right>
+        <right name="command.blowvehicle" access="true"></right>
+        <right name="command.destroyvehicle" access="true"></right>
+        <right name="command.customize" access="true"></right>
+        <right name="command.setcolor" access="true"></right>
+        <right name="command.setpaintjob" access="true"></right>
+        <right name="command.listmessages" access="true"></right>
+        <right name="command.readmessage" access="true"></right>
+        <right name="command.listresources" access="true"></right>
+        <right name="command.start" access="true"></right>
+        <right name="command.stop" access="true"></right>
+        <right name="command.delete" access="true"></right>
+        <right name="command.restart" access="true"></right>
+        <right name="command.aclmanager" access="true"></right>
+        <right name="command.aclcreate" access="true"></right>
+        <right name="command.acldestroy" access="true"></right>
+        <right name="command.acladd" access="true"></right>
+        <right name="command.aclremove" access="true"></right>
+        <right name="command.setpassword" access="true"></right>
+        <right name="command.setwelcome" access="true"></right>
+        <right name="command.setgame" access="true"></right>
+        <right name="command.setmap" access="true"></right>
+        <right name="command.setweather" access="true"></right>
+        <right name="command.blendweather" access="true"></right>
+        <right name="command.setblurlevel" access="true"></right>
+        <right name="command.setwaveheight" access="true"></right>
+        <right name="command.setskygradient" access="true"></right>
+        <right name="command.setgamespeed" access="true"></right>
+        <right name="command.setgravity" access="true"></right>
+        <right name="command.settime" access="true"></right>
+        <right name="command.setfpslimit" access="true"></right>
+        <right name="command.clearchat" access="true"></right>
+        <right name="command.ban" access="true"></right>
+        <right name="command.unban" access="true"></right>
+        <right name="command.banip" access="true"></right>
+        <right name="command.unbanip" access="true"></right>
+        <right name="command.banserial" access="true"></right>
+        <right name="command.unbanserial" access="true"></right>
+        <right name="command.listbans" access="true"></right>
+        <right name="command.takescreenshot" access="true"></right>
+        <right name="command.deletescreenshot" access="true"></right>
+        <right name="command.viewscreenshot" access="true"></right>
+        <right name="command.listscreenshots" access="true"></right>
+        <right name="command.execute" access="false"></right>
+    </acl>
+    <acl name="Administrator">
+        <right name="general.ModifyOtherObjects" access="true"></right>
+        <right name="command.login" access="true"></right>
+        <right name="command.logout" access="true"></right>
+        <right name="command.refresh" access="true"></right>
+        <right name="command.refreshall" access="true"></right>
+        <right name="command.register" access="true"></right>
+        <right name="general.http" access="true"></right>
+        <right name="command.shutdown" access="true"></right>
+        <right name="command.install" access="true"></right>
+        <right name="command.aexec" access="true"></right>
+        <right name="command.debugscript" access="true"></right>
+        <right name="command.upgrade" access="true"></right>
+        <right name="command.crun" access="true"></right>
+        <right name="command.srun" access="true"></right>
+        <right name="command.run" access="true"></right>
+        <right name="command.aclrequest" access="true"></right>
+        <right name="command.authserial" access="true"></right>
+        <right name="command.reloadacl" access="true"></right>
+        <right name="command.stopall" access="true"></right>
+        <right name="command.delaccount" access="true"></right>
+        <right name="command.chgpass" access="true"></right>
+        <right name="function.addBan" access="true"></right>
+        <right name="function.setUnbanTime" access="true"></right>
+        <right name="function.setBanAdmin" access="true"></right>
+        <right name="function.setBanReason" access="true"></right>
+        <right name="function.setBanNick" access="true"></right>
+        <right name="function.removeBan" access="true"></right>
+        <right name="function.reloadBans" access="true"></right>
+        <right name="function.executeCommandHandler" access="true"></right>
+        <right name="function.setServerPassword" access="true"></right>
+        <right name="function.getServerPassword" access="true"></right>
+        <right name="function.createResource" access="true"></right>
+        <right name="function.copyResource" access="true"></right>
+        <right name="function.addResourceMap" access="true"></right>
+        <right name="function.addResourceConfig" access="true"></right>
+        <right name="function.removeResourceFile" access="true"></right>
+        <right name="function.setResourceDefaultSetting" access="true"></right>
+        <right name="function.removeResourceDefaultSetting" access="true"></right>
+        <right name="function.aclReload" access="true"></right>
+        <right name="function.aclSave" access="true"></right>
+        <right name="function.aclCreate" access="true"></right>
+        <right name="function.aclDestroy" access="true"></right>
+        <right name="function.aclSetRight" access="true"></right>
+        <right name="function.aclRemoveRight" access="true"></right>
+        <right name="function.aclCreateGroup" access="true"></right>
+        <right name="function.aclDestroyGroup" access="true"></right>
+        <right name="function.aclGroupAddACL" access="true"></right>
+        <right name="function.aclGroupRemoveACL" access="true"></right>
+        <right name="function.aclGroupAddObject" access="true"></right>
+        <right name="function.aclGroupRemoveObject" access="true"></right>
+        <right name="function.refreshResources" access="true"></right>
+        <right name="function.setServerConfigSetting" access="true"></right>
+        <right name="function.updateResourceACLRequest" access="true"></right>
+        <right name="function.shutdown" access="true"></right>
+        <right name="function.setPlayerScriptDebugLevel" access="true"></right>
+        <right name="function.removeAccount" access="true"></right>
+        <right name="general.adminpanel" access="true"></right>
+        <right name="general.tab_players" access="true"></right>
+        <right name="general.tab_resources" access="true"></right>
+        <right name="general.tab_maps" access="true"></right>
+        <right name="general.tab_server" access="true"></right>
+        <right name="general.tab_bans" access="true"></right>
+        <right name="general.tab_adminchat" access="true"></right>
+        <right name="command.kick" access="true"></right>
+        <right name="command.freeze" access="true"></right>
+        <right name="command.mute" access="true"></right>
+        <right name="command.setnick" access="true"></right>
+        <right name="command.shout" access="true"></right>
+        <right name="command.spectate" access="true"></right>
+        <right name="command.slap" access="true"></right>
+        <right name="command.setgroup" access="true"></right>
+        <right name="command.sethealth" access="true"></right>
+        <right name="command.setarmour" access="true"></right>
+        <right name="command.setmoney" access="true"></right>
+        <right name="command.setskin" access="true"></right>
+        <right name="command.setteam" access="true"></right>
+        <right name="command.giveweapon" access="true"></right>
+        <right name="command.setstat" access="true"></right>
+        <right name="command.jetpack" access="true"></right>
+        <right name="command.warp" access="true"></right>
+        <right name="command.setdimension" access="true"></right>
+        <right name="command.setinterior" access="true"></right>
+        <right name="command.createteam" access="true"></right>
+        <right name="command.destroyteam" access="true"></right>
+        <right name="command.givevehicle" access="true"></right>
+        <right name="command.repair" access="true"></right>
+        <right name="command.blowvehicle" access="true"></right>
+        <right name="command.destroyvehicle" access="true"></right>
+        <right name="command.customize" access="true"></right>
+        <right name="command.setcolor" access="true"></right>
+        <right name="command.setpaintjob" access="true"></right>
+        <right name="command.listmessages" access="true"></right>
+        <right name="command.readmessage" access="true"></right>
+        <right name="command.listresources" access="true"></right>
+        <right name="command.start" access="true"></right>
+        <right name="command.stop" access="true"></right>
+        <right name="command.delete" access="true"></right>
+        <right name="command.restart" access="true"></right>
+        <right name="command.aclmanager" access="true"></right>
+        <right name="command.aclcreate" access="true"></right>
+        <right name="command.acldestroy" access="true"></right>
+        <right name="command.acladd" access="true"></right>
+        <right name="command.aclremove" access="true"></right>
+        <right name="command.setpassword" access="true"></right>
+        <right name="command.setwelcome" access="true"></right>
+        <right name="command.setgame" access="true"></right>
+        <right name="command.setmap" access="true"></right>
+        <right name="command.setweather" access="true"></right>
+        <right name="command.blendweather" access="true"></right>
+        <right name="command.setblurlevel" access="true"></right>
+        <right name="command.setwaveheight" access="true"></right>
+        <right name="command.setskygradient" access="true"></right>
+        <right name="command.setgamespeed" access="true"></right>
+        <right name="command.setgravity" access="true"></right>
+        <right name="command.settime" access="true"></right>
+        <right name="command.setfpslimit" access="true"></right>
+        <right name="command.clearchat" access="true"></right>
+        <right name="command.ban" access="true"></right>
+        <right name="command.unban" access="true"></right>
+        <right name="command.banip" access="true"></right>
+        <right name="command.unbanip" access="true"></right>
+        <right name="command.banserial" access="true"></right>
+        <right name="command.unbanserial" access="true"></right>
+        <right name="command.listbans" access="true"></right>
+        <right name="command.takescreenshot" access="true"></right>
+        <right name="command.deletescreenshot" access="true"></right>
+        <right name="command.viewscreenshot" access="true"></right>
+        <right name="command.listscreenshots" access="true"></right>
+        <right name="command.execute" access="false"></right>
+    </acl>
+    <acl name="admin">
+        <right name="general.ModifyOtherObjects" access="true"></right>
+        <right name="command.login" access="true"></right>
+        <right name="command.logout" access="true"></right>
+        <right name="command.refresh" access="true"></right>
+        <right name="command.refreshall" access="true"></right>
+        <right name="command.register" access="true"></right>
+        <right name="general.http" access="true"></right>
+        <right name="command.shutdown" access="true"></right>
+        <right name="command.install" access="true"></right>
+        <right name="command.aexec" access="true"></right>
+        <right name="command.debugscript" access="true"></right>
+        <right name="command.upgrade" access="true"></right>
+        <right name="command.crun" access="true"></right>
+        <right name="command.srun" access="true"></right>
+        <right name="command.run" access="true"></right>
+        <right name="command.aclrequest" access="true"></right>
+        <right name="command.authserial" access="true"></right>
+        <right name="command.reloadacl" access="true"></right>
+        <right name="command.stopall" access="true"></right>
+        <right name="command.delaccount" access="true"></right>
+        <right name="command.chgpass" access="true"></right>
+        <right name="function.addBan" access="true"></right>
+        <right name="function.setUnbanTime" access="true"></right>
+        <right name="function.setBanAdmin" access="true"></right>
+        <right name="function.setBanReason" access="true"></right>
+        <right name="function.setBanNick" access="true"></right>
+        <right name="function.removeBan" access="true"></right>
+        <right name="function.reloadBans" access="true"></right>
+        <right name="function.executeCommandHandler" access="true"></right>
+        <right name="function.setServerPassword" access="true"></right>
+        <right name="function.getServerPassword" access="true"></right>
+        <right name="function.createResource" access="true"></right>
+        <right name="function.copyResource" access="true"></right>
+        <right name="function.addResourceMap" access="true"></right>
+        <right name="function.addResourceConfig" access="true"></right>
+        <right name="function.removeResourceFile" access="true"></right>
+        <right name="function.setResourceDefaultSetting" access="true"></right>
+        <right name="function.removeResourceDefaultSetting" access="true"></right>
+        <right name="function.aclReload" access="true"></right>
+        <right name="function.aclSave" access="true"></right>
+        <right name="function.aclCreate" access="true"></right>
+        <right name="function.aclDestroy" access="true"></right>
+        <right name="function.aclSetRight" access="true"></right>
+        <right name="function.aclRemoveRight" access="true"></right>
+        <right name="function.aclCreateGroup" access="true"></right>
+        <right name="function.aclDestroyGroup" access="true"></right>
+        <right name="function.aclGroupAddACL" access="true"></right>
+        <right name="function.aclGroupRemoveACL" access="true"></right>
+        <right name="function.aclGroupAddObject" access="true"></right>
+        <right name="function.aclGroupRemoveObject" access="true"></right>
+        <right name="function.refreshResources" access="true"></right>
+        <right name="function.setServerConfigSetting" access="true"></right>
+        <right name="function.updateResourceACLRequest" access="true"></right>
+        <right name="function.shutdown" access="true"></right>
+        <right name="function.setPlayerScriptDebugLevel" access="true"></right>
+        <right name="function.removeAccount" access="true"></right>
+        <right name="general.adminpanel" access="true"></right>
+        <right name="general.tab_players" access="true"></right>
+        <right name="general.tab_resources" access="true"></right>
+        <right name="general.tab_maps" access="true"></right>
+        <right name="general.tab_server" access="true"></right>
+        <right name="general.tab_bans" access="true"></right>
+        <right name="general.tab_adminchat" access="true"></right>
+        <right name="command.kick" access="true"></right>
+        <right name="command.freeze" access="true"></right>
+        <right name="command.mute" access="true"></right>
+        <right name="command.setnick" access="true"></right>
+        <right name="command.shout" access="true"></right>
+        <right name="command.spectate" access="true"></right>
+        <right name="command.slap" access="true"></right>
+        <right name="command.setgroup" access="true"></right>
+        <right name="command.sethealth" access="true"></right>
+        <right name="command.setarmour" access="true"></right>
+        <right name="command.setmoney" access="true"></right>
+        <right name="command.setskin" access="true"></right>
+        <right name="command.setteam" access="true"></right>
+        <right name="command.giveweapon" access="true"></right>
+        <right name="command.setstat" access="true"></right>
+        <right name="command.jetpack" access="true"></right>
+        <right name="command.warp" access="true"></right>
+        <right name="command.setdimension" access="true"></right>
+        <right name="command.setinterior" access="true"></right>
+        <right name="command.createteam" access="true"></right>
+        <right name="command.destroyteam" access="true"></right>
+        <right name="command.givevehicle" access="true"></right>
+        <right name="command.repair" access="true"></right>
+        <right name="command.blowvehicle" access="true"></right>
+        <right name="command.destroyvehicle" access="true"></right>
+        <right name="command.customize" access="true"></right>
+        <right name="command.setcolor" access="true"></right>
+        <right name="command.setpaintjob" access="true"></right>
+        <right name="command.listmessages" access="true"></right>
+        <right name="command.readmessage" access="true"></right>
+        <right name="command.listresources" access="true"></right>
+        <right name="command.start" access="true"></right>
+        <right name="command.stop" access="true"></right>
+        <right name="command.delete" access="true"></right>
+        <right name="command.restart" access="true"></right>
+        <right name="command.aclmanager" access="true"></right>
+        <right name="command.aclcreate" access="true"></right>
+        <right name="command.acldestroy" access="true"></right>
+        <right name="command.acladd" access="true"></right>
+        <right name="command.aclremove" access="true"></right>
+        <right name="command.setpassword" access="true"></right>
+        <right name="command.setwelcome" access="true"></right>
+        <right name="command.setgame" access="true"></right>
+        <right name="command.setmap" access="true"></right>
+        <right name="command.setweather" access="true"></right>
+        <right name="command.blendweather" access="true"></right>
+        <right name="command.setblurlevel" access="true"></right>
+        <right name="command.setwaveheight" access="true"></right>
+        <right name="command.setskygradient" access="true"></right>
+        <right name="command.setgamespeed" access="true"></right>
+        <right name="command.setgravity" access="true"></right>
+        <right name="command.settime" access="true"></right>
+        <right name="command.setfpslimit" access="true"></right>
+        <right name="command.clearchat" access="true"></right>
+        <right name="command.ban" access="true"></right>
+        <right name="command.unban" access="true"></right>
+        <right name="command.banip" access="true"></right>
+        <right name="command.unbanip" access="true"></right>
+        <right name="command.banserial" access="true"></right>
+        <right name="command.unbanserial" access="true"></right>
+        <right name="command.listbans" access="true"></right>
+        <right name="command.takescreenshot" access="true"></right>
+        <right name="command.deletescreenshot" access="true"></right>
+        <right name="command.viewscreenshot" access="true"></right>
+        <right name="command.listscreenshots" access="true"></right>
+        <right name="command.execute" access="false"></right>
+    </acl>
+    <acl name="Console">
+        <right name="general.ModifyOtherObjects" access="true"></right>
+        <right name="command.login" access="true"></right>
+        <right name="command.logout" access="true"></right>
+        <right name="command.refresh" access="true"></right>
+        <right name="command.refreshall" access="true"></right>
+        <right name="command.register" access="true"></right>
+        <right name="general.http" access="true"></right>
+        <right name="command.shutdown" access="true"></right>
+        <right name="command.install" access="true"></right>
+        <right name="command.aexec" access="true"></right>
+        <right name="command.debugscript" access="true"></right>
+        <right name="command.upgrade" access="true"></right>
+        <right name="command.crun" access="true"></right>
+        <right name="command.srun" access="true"></right>
+        <right name="command.run" access="true"></right>
+        <right name="command.aclrequest" access="true"></right>
+        <right name="command.authserial" access="true"></right>
+        <right name="command.reloadacl" access="true"></right>
+        <right name="command.stopall" access="true"></right>
+        <right name="command.delaccount" access="true"></right>
+        <right name="command.chgpass" access="true"></right>
+        <right name="function.addBan" access="true"></right>
+        <right name="function.setUnbanTime" access="true"></right>
+        <right name="function.setBanAdmin" access="true"></right>
+        <right name="function.setBanReason" access="true"></right>
+        <right name="function.setBanNick" access="true"></right>
+        <right name="function.removeBan" access="true"></right>
+        <right name="function.reloadBans" access="true"></right>
+        <right name="function.executeCommandHandler" access="true"></right>
+        <right name="function.setServerPassword" access="true"></right>
+        <right name="function.getServerPassword" access="true"></right>
+        <right name="function.createResource" access="true"></right>
+        <right name="function.copyResource" access="true"></right>
+        <right name="function.addResourceMap" access="true"></right>
+        <right name="function.addResourceConfig" access="true"></right>
+        <right name="function.removeResourceFile" access="true"></right>
+        <right name="function.setResourceDefaultSetting" access="true"></right>
+        <right name="function.removeResourceDefaultSetting" access="true"></right>
+        <right name="function.aclReload" access="true"></right>
+        <right name="function.aclSave" access="true"></right>
+        <right name="function.aclCreate" access="true"></right>
+        <right name="function.aclDestroy" access="true"></right>
+        <right name="function.aclSetRight" access="true"></right>
+        <right name="function.aclRemoveRight" access="true"></right>
+        <right name="function.aclCreateGroup" access="true"></right>
+        <right name="function.aclDestroyGroup" access="true"></right>
+        <right name="function.aclGroupAddACL" access="true"></right>
+        <right name="function.aclGroupRemoveACL" access="true"></right>
+        <right name="function.aclGroupAddObject" access="true"></right>
+        <right name="function.aclGroupRemoveObject" access="true"></right>
+        <right name="function.refreshResources" access="true"></right>
+        <right name="function.setServerConfigSetting" access="true"></right>
+        <right name="function.updateResourceACLRequest" access="true"></right>
+        <right name="function.shutdown" access="true"></right>
+        <right name="function.setPlayerScriptDebugLevel" access="true"></right>
+        <right name="function.removeAccount" access="true"></right>
+        <right name="general.adminpanel" access="true"></right>
+        <right name="general.tab_players" access="true"></right>
+        <right name="general.tab_resources" access="true"></right>
+        <right name="general.tab_maps" access="true"></right>
+        <right name="general.tab_server" access="true"></right>
+        <right name="general.tab_bans" access="true"></right>
+        <right name="general.tab_adminchat" access="true"></right>
+        <right name="command.kick" access="true"></right>
+        <right name="command.freeze" access="true"></right>
+        <right name="command.mute" access="true"></right>
+        <right name="command.setnick" access="true"></right>
+        <right name="command.shout" access="true"></right>
+        <right name="command.spectate" access="true"></right>
+        <right name="command.slap" access="true"></right>
+        <right name="command.setgroup" access="true"></right>
+        <right name="command.sethealth" access="true"></right>
+        <right name="command.setarmour" access="true"></right>
+        <right name="command.setmoney" access="true"></right>
+        <right name="command.setskin" access="true"></right>
+        <right name="command.setteam" access="true"></right>
+        <right name="command.giveweapon" access="true"></right>
+        <right name="command.setstat" access="true"></right>
+        <right name="command.jetpack" access="true"></right>
+        <right name="command.warp" access="true"></right>
+        <right name="command.setdimension" access="true"></right>
+        <right name="command.setinterior" access="true"></right>
+        <right name="command.createteam" access="true"></right>
+        <right name="command.destroyteam" access="true"></right>
+        <right name="command.givevehicle" access="true"></right>
+        <right name="command.repair" access="true"></right>
+        <right name="command.blowvehicle" access="true"></right>
+        <right name="command.destroyvehicle" access="true"></right>
+        <right name="command.customize" access="true"></right>
+        <right name="command.setcolor" access="true"></right>
+        <right name="command.setpaintjob" access="true"></right>
+        <right name="command.listmessages" access="true"></right>
+        <right name="command.readmessage" access="true"></right>
+        <right name="command.listresources" access="true"></right>
+        <right name="command.start" access="true"></right>
+        <right name="command.stop" access="true"></right>
+        <right name="command.delete" access="true"></right>
+        <right name="command.restart" access="true"></right>
+        <right name="command.aclmanager" access="true"></right>
+        <right name="command.aclcreate" access="true"></right>
+        <right name="command.acldestroy" access="true"></right>
+        <right name="command.acladd" access="true"></right>
+        <right name="command.aclremove" access="true"></right>
+        <right name="command.setpassword" access="true"></right>
+        <right name="command.setwelcome" access="true"></right>
+        <right name="command.setgame" access="true"></right>
+        <right name="command.setmap" access="true"></right>
+        <right name="command.setweather" access="true"></right>
+        <right name="command.blendweather" access="true"></right>
+        <right name="command.setblurlevel" access="true"></right>
+        <right name="command.setwaveheight" access="true"></right>
+        <right name="command.setskygradient" access="true"></right>
+        <right name="command.setgamespeed" access="true"></right>
+        <right name="command.setgravity" access="true"></right>
+        <right name="command.settime" access="true"></right>
+        <right name="command.setfpslimit" access="true"></right>
+        <right name="command.clearchat" access="true"></right>
+        <right name="command.ban" access="true"></right>
+        <right name="command.unban" access="true"></right>
+        <right name="command.banip" access="true"></right>
+        <right name="command.unbanip" access="true"></right>
+        <right name="command.banserial" access="true"></right>
+        <right name="command.unbanserial" access="true"></right>
+        <right name="command.listbans" access="true"></right>
+        <right name="command.takescreenshot" access="true"></right>
+        <right name="command.deletescreenshot" access="true"></right>
+        <right name="command.viewscreenshot" access="true"></right>
+        <right name="command.listscreenshots" access="true"></right>
+        <right name="command.execute" access="false"></right>
+    </acl>
+    <acl name="Police">
+        <right name="command.police" access="true"></right>
+        <right name="general.adminpanel" access="false"></right>
+        <right name="general.tab_players" access="false"></right>
+        <right name="general.tab_resources" access="false"></right>
+        <right name="general.tab_maps" access="false"></right>
+        <right name="general.tab_server" access="false"></right>
+        <right name="general.tab_bans" access="false"></right>
+        <right name="general.tab_adminchat" access="false"></right>
+        <right name="command.kick" access="false"></right>
+        <right name="command.freeze" access="false"></right>
+        <right name="command.mute" access="false"></right>
+        <right name="command.setnick" access="false"></right>
+        <right name="command.shout" access="false"></right>
+        <right name="command.spectate" access="false"></right>
+        <right name="command.slap" access="false"></right>
+        <right name="command.setgroup" access="false"></right>
+        <right name="command.sethealth" access="false"></right>
+        <right name="command.setarmour" access="false"></right>
+        <right name="command.setmoney" access="false"></right>
+        <right name="command.setskin" access="false"></right>
+        <right name="command.setteam" access="false"></right>
+        <right name="command.giveweapon" access="false"></right>
+        <right name="command.setstat" access="false"></right>
+        <right name="command.jetpack" access="false"></right>
+        <right name="command.warp" access="false"></right>
+        <right name="command.setdimension" access="false"></right>
+        <right name="command.setinterior" access="false"></right>
+        <right name="command.createteam" access="false"></right>
+        <right name="command.destroyteam" access="false"></right>
+        <right name="command.givevehicle" access="false"></right>
+        <right name="command.repair" access="false"></right>
+        <right name="command.blowvehicle" access="false"></right>
+        <right name="command.destroyvehicle" access="false"></right>
+        <right name="command.customize" access="false"></right>
+        <right name="command.setcolor" access="false"></right>
+        <right name="command.setpaintjob" access="false"></right>
+        <right name="command.listmessages" access="false"></right>
+        <right name="command.readmessage" access="false"></right>
+        <right name="command.listresources" access="false"></right>
+        <right name="command.start" access="false"></right>
+        <right name="command.stop" access="false"></right>
+        <right name="command.stopall" access="false"></right>
+        <right name="command.delete" access="false"></right>
+        <right name="command.restart" access="false"></right>
+        <right name="command.execute" access="false"></right>
+        <right name="command.setpassword" access="false"></right>
+        <right name="command.setwelcome" access="false"></right>
+        <right name="command.setgame" access="false"></right>
+        <right name="command.setmap" access="false"></right>
+        <right name="command.setweather" access="false"></right>
+        <right name="command.blendweather" access="false"></right>
+        <right name="command.setblurlevel" access="false"></right>
+        <right name="command.setwaveheight" access="false"></right>
+        <right name="command.setskygradient" access="false"></right>
+        <right name="command.setgamespeed" access="false"></right>
+        <right name="command.setgravity" access="false"></right>
+        <right name="command.settime" access="false"></right>
+        <right name="command.setfpslimit" access="false"></right>
+        <right name="function.shutdown" access="false"></right>
+        <right name="command.ban" access="false"></right>
+        <right name="command.unban" access="false"></right>
+        <right name="command.banip" access="false"></right>
+        <right name="command.unbanip" access="false"></right>
+        <right name="command.banserial" access="false"></right>
+        <right name="command.unbanserial" access="false"></right>
+        <right name="command.listbans" access="false"></right>
+        <right name="command.policelist" access="true"></right>
+    </acl>
+    <acl name="autoACL_acpanel">
+        <right name="function.setServerConfigSetting" access="true" who="#F29420DarkMoney(Enzo)" pending="false" date="19-11-13 19:49:31"></right>
+        <right name="function.kickPlayer" access="true" who="#F29420DarkMoney(Enzo)" pending="false" date="19-11-13 19:49:31"></right>
+        <right name="function.fetchRemote" access="true" who="#F29420DarkMoney(Enzo)" pending="false" date="19-11-13 19:49:31"></right>
+    </acl>
+    <acl name="autoACL_mapmanager">
+        <right name="function.startResource" access="false" who="" pending="true" date=""></right>
+        <right name="function.restartResource" access="false" who="" pending="true" date=""></right>
+        <right name="function.stopResource" access="false" who="" pending="true" date=""></right>
+        <right name="function.refreshResources" access="false" who="" pending="true" date=""></right>
+    </acl>
+    <acl name="freeroam">
+        <right name="general.ModifyOtherObjects" access="true"></right>
+        <right name="general.adminpanel" access="false"></right>
+        <right name="general.tab_players" access="false"></right>
+        <right name="general.tab_resources" access="false"></right>
+        <right name="general.tab_maps" access="false"></right>
+        <right name="general.tab_server" access="false"></right>
+        <right name="general.tab_bans" access="false"></right>
+        <right name="general.tab_adminchat" access="false"></right>
+        <right name="command.kick" access="false"></right>
+        <right name="command.freeze" access="false"></right>
+        <right name="command.mute" access="false"></right>
+        <right name="command.setnick" access="false"></right>
+        <right name="command.shout" access="false"></right>
+        <right name="command.spectate" access="false"></right>
+        <right name="command.slap" access="false"></right>
+        <right name="command.setgroup" access="false"></right>
+        <right name="command.sethealth" access="false"></right>
+        <right name="command.setarmour" access="false"></right>
+        <right name="command.setmoney" access="false"></right>
+        <right name="command.setskin" access="false"></right>
+        <right name="command.setteam" access="false"></right>
+        <right name="command.giveweapon" access="false"></right>
+        <right name="command.setstat" access="false"></right>
+        <right name="command.jetpack" access="false"></right>
+        <right name="command.warp" access="false"></right>
+        <right name="command.setdimension" access="false"></right>
+        <right name="command.setinterior" access="false"></right>
+        <right name="command.createteam" access="false"></right>
+        <right name="command.destroyteam" access="false"></right>
+        <right name="command.givevehicle" access="false"></right>
+        <right name="command.repair" access="false"></right>
+        <right name="command.blowvehicle" access="false"></right>
+        <right name="command.destroyvehicle" access="false"></right>
+        <right name="command.customize" access="false"></right>
+        <right name="command.setcolor" access="false"></right>
+        <right name="command.setpaintjob" access="false"></right>
+        <right name="command.listmessages" access="false"></right>
+        <right name="command.readmessage" access="false"></right>
+        <right name="command.listresources" access="false"></right>
+        <right name="command.start" access="false"></right>
+        <right name="command.stop" access="false"></right>
+        <right name="command.stopall" access="false"></right>
+        <right name="command.delete" access="false"></right>
+        <right name="command.restart" access="false"></right>
+        <right name="command.execute" access="false"></right>
+        <right name="command.setpassword" access="false"></right>
+        <right name="command.setwelcome" access="false"></right>
+        <right name="command.setgame" access="false"></right>
+        <right name="command.setmap" access="false"></right>
+        <right name="command.setweather" access="false"></right>
+        <right name="command.blendweather" access="false"></right>
+        <right name="command.setblurlevel" access="false"></right>
+        <right name="command.setwaveheight" access="false"></right>
+        <right name="command.setskygradient" access="false"></right>
+        <right name="command.setgamespeed" access="false"></right>
+        <right name="command.setgravity" access="false"></right>
+        <right name="command.settime" access="false"></right>
+        <right name="command.setfpslimit" access="false"></right>
+        <right name="function.shutdown" access="false"></right>
+        <right name="command.ban" access="false"></right>
+        <right name="command.unban" access="false"></right>
+        <right name="command.banip" access="false"></right>
+        <right name="command.unbanip" access="false"></right>
+        <right name="command.banserial" access="false"></right>
+        <right name="command.unbanserial" access="false"></right>
+        <right name="command.listbans" access="false"></right>
+        <right name="function.fileCreate" access="true"></right>
+        <right name="function.fileOpen" access="true"></right>
+        <right name="function.fileWrite" access="true"></right>
+        <right name="function.fileClose" access="true"></right>
+    </acl>
+    <acl name="youtube">
+        <right name="general.adminpanel" access="true"></right>
+        <right name="general.tab_players" access="true"></right>
+        <right name="command.setarmour" access="true"></right>
+        <right name="command.sethealth" access="true"></right>
+        <right name="general.tab_resources" access="false"></right>
+        <right name="general.tab_maps" access="false"></right>
+        <right name="general.tab_server" access="false"></right>
+        <right name="general.tab_bans" access="false"></right>
+        <right name="general.tab_adminchat" access="false"></right>
+        <right name="command.kick" access="false"></right>
+        <right name="command.setnick" access="false"></right>
+        <right name="command.shout" access="false"></right>
+        <right name="command.spectate" access="false"></right>
+        <right name="command.slap" access="false"></right>
+        <right name="command.setgroup" access="false"></right>
+        <right name="command.setmoney" access="false"></right>
+        <right name="command.setskin" access="false"></right>
+        <right name="command.setteam" access="false"></right>
+        <right name="command.giveweapon" access="false"></right>
+        <right name="command.setstat" access="false"></right>
+        <right name="command.setdimension" access="false"></right>
+        <right name="command.setinterior" access="false"></right>
+        <right name="command.createteam" access="false"></right>
+        <right name="command.destroyteam" access="false"></right>
+        <right name="command.givevehicle" access="false"></right>
+        <right name="command.repair" access="false"></right>
+        <right name="command.blowvehicle" access="false"></right>
+        <right name="command.destroyvehicle" access="false"></right>
+        <right name="command.customize" access="false"></right>
+        <right name="command.setcolor" access="false"></right>
+        <right name="command.setpaintjob" access="false"></right>
+        <right name="command.listmessages" access="false"></right>
+        <right name="command.readmessage" access="false"></right>
+        <right name="command.listresources" access="false"></right>
+        <right name="command.start" access="false"></right>
+        <right name="command.stop" access="false"></right>
+        <right name="command.stopall" access="false"></right>
+        <right name="command.delete" access="false"></right>
+        <right name="command.restart" access="false"></right>
+        <right name="command.execute" access="false"></right>
+        <right name="command.setpassword" access="false"></right>
+        <right name="command.setwelcome" access="false"></right>
+        <right name="command.setgame" access="false"></right>
+        <right name="command.setmap" access="false"></right>
+        <right name="command.setweather" access="false"></right>
+        <right name="command.blendweather" access="false"></right>
+        <right name="command.setblurlevel" access="false"></right>
+        <right name="command.setwaveheight" access="false"></right>
+        <right name="command.setskygradient" access="false"></right>
+        <right name="command.setgamespeed" access="false"></right>
+        <right name="command.setgravity" access="false"></right>
+        <right name="command.settime" access="false"></right>
+        <right name="command.setfpslimit" access="false"></right>
+        <right name="function.shutdown" access="false"></right>
+        <right name="command.ban" access="false"></right>
+        <right name="command.unban" access="false"></right>
+        <right name="command.banip" access="false"></right>
+        <right name="command.unbanip" access="false"></right>
+        <right name="command.banserial" access="false"></right>
+        <right name="command.unbanserial" access="false"></right>
+        <right name="command.listbans" access="false"></right>
+        <right name="command.toggletag" access="true"></right>
+        <right name="command.togglechat" access="true"></right>
+        <right name="command.warpmap" access="true"></right>
+        <right name="command.warp" access="true"></right>
+        <right name="command.mute" access="true"></right>
+        <right name="command.jetpack" access="true"></right>
+        <right name="command.freeze" access="true"></right>
+    </acl>
+    <acl name="mp">
+        <right name="command.startmp" access="true"></right>
+        <right name="command.stopmp" access="true"></right>
+        <right name="command.opentp" access="true"></right>
+        <right name="command.closetp" access="true"></right>
+        <right name="general.adminpanel" access="false"></right>
+        <right name="general.tab_players" access="false"></right>
+        <right name="general.tab_resources" access="false"></right>
+        <right name="general.tab_maps" access="false"></right>
+        <right name="general.tab_server" access="false"></right>
+        <right name="general.tab_bans" access="false"></right>
+        <right name="general.tab_adminchat" access="false"></right>
+        <right name="command.kick" access="false"></right>
+        <right name="command.freeze" access="false"></right>
+        <right name="command.mute" access="false"></right>
+        <right name="command.setnick" access="false"></right>
+        <right name="command.shout" access="false"></right>
+        <right name="command.spectate" access="false"></right>
+        <right name="command.slap" access="false"></right>
+        <right name="command.setgroup" access="false"></right>
+        <right name="command.sethealth" access="false"></right>
+        <right name="command.setarmour" access="false"></right>
+        <right name="command.setmoney" access="false"></right>
+        <right name="command.setskin" access="false"></right>
+        <right name="command.setteam" access="false"></right>
+        <right name="command.giveweapon" access="false"></right>
+        <right name="command.setstat" access="false"></right>
+        <right name="command.jetpack" access="false"></right>
+        <right name="command.warp" access="false"></right>
+        <right name="command.setdimension" access="false"></right>
+        <right name="command.setinterior" access="false"></right>
+        <right name="command.createteam" access="false"></right>
+        <right name="command.destroyteam" access="false"></right>
+        <right name="command.givevehicle" access="false"></right>
+        <right name="command.repair" access="false"></right>
+        <right name="command.blowvehicle" access="false"></right>
+        <right name="command.destroyvehicle" access="false"></right>
+        <right name="command.customize" access="false"></right>
+        <right name="command.setcolor" access="false"></right>
+        <right name="command.setpaintjob" access="false"></right>
+        <right name="command.listmessages" access="false"></right>
+        <right name="command.readmessage" access="false"></right>
+        <right name="command.listresources" access="false"></right>
+        <right name="command.start" access="false"></right>
+        <right name="command.stop" access="false"></right>
+        <right name="command.stopall" access="false"></right>
+        <right name="command.delete" access="false"></right>
+        <right name="command.restart" access="false"></right>
+        <right name="command.execute" access="false"></right>
+        <right name="command.setpassword" access="false"></right>
+        <right name="command.setwelcome" access="false"></right>
+        <right name="command.setgame" access="false"></right>
+        <right name="command.setmap" access="false"></right>
+        <right name="command.setweather" access="false"></right>
+        <right name="command.blendweather" access="false"></right>
+        <right name="command.setblurlevel" access="false"></right>
+        <right name="command.setwaveheight" access="false"></right>
+        <right name="command.setskygradient" access="false"></right>
+        <right name="command.setgamespeed" access="false"></right>
+        <right name="command.setgravity" access="false"></right>
+        <right name="command.settime" access="false"></right>
+        <right name="command.setfpslimit" access="false"></right>
+        <right name="function.shutdown" access="false"></right>
+        <right name="command.ban" access="false"></right>
+        <right name="command.unban" access="false"></right>
+        <right name="command.banip" access="false"></right>
+        <right name="command.unbanip" access="false"></right>
+        <right name="command.banserial" access="false"></right>
+        <right name="command.unbanserial" access="false"></right>
+        <right name="command.listbans" access="false"></right>
+    </acl>
+    <acl name="GLAdministrator">
+        <right name="command.warpmap" access="true"></right>
+        <right name="general.adminpanel" access="true"></right>
+        <right name="general.tab_players" access="true"></right>
+        <right name="general.tab_resources" access="true"></right>
+        <right name="general.tab_maps" access="false"></right>
+        <right name="general.tab_server" access="false"></right>
+        <right name="general.tab_bans" access="false"></right>
+        <right name="general.tab_adminchat" access="false"></right>
+        <right name="command.kick" access="false"></right>
+        <right name="command.freeze" access="false"></right>
+        <right name="command.mute" access="true"></right>
+        <right name="command.setnick" access="false"></right>
+        <right name="command.shout" access="false"></right>
+        <right name="command.spectate" access="false"></right>
+        <right name="command.slap" access="false"></right>
+        <right name="command.setgroup" access="false"></right>
+        <right name="command.sethealth" access="true"></right>
+        <right name="command.setarmour" access="false"></right>
+        <right name="command.setmoney" access="false"></right>
+        <right name="command.setskin" access="false"></right>
+        <right name="command.setteam" access="false"></right>
+        <right name="command.giveweapon" access="false"></right>
+        <right name="command.setstat" access="false"></right>
+        <right name="command.jetpack" access="false"></right>
+        <right name="command.warp" access="false"></right>
+        <right name="command.setdimension" access="false"></right>
+        <right name="command.setinterior" access="false"></right>
+        <right name="command.createteam" access="false"></right>
+        <right name="command.destroyteam" access="false"></right>
+        <right name="command.givevehicle" access="true"></right>
+        <right name="command.repair" access="true"></right>
+        <right name="command.blowvehicle" access="true"></right>
+        <right name="command.destroyvehicle" access="true"></right>
+        <right name="command.customize" access="false"></right>
+        <right name="command.setcolor" access="true"></right>
+        <right name="command.setpaintjob" access="true"></right>
+        <right name="command.listmessages" access="false"></right>
+        <right name="command.readmessage" access="false"></right>
+        <right name="command.listresources" access="false"></right>
+        <right name="command.start" access="false"></right>
+        <right name="command.stop" access="false"></right>
+        <right name="command.stopall" access="false"></right>
+        <right name="command.delete" access="false"></right>
+        <right name="command.restart" access="false"></right>
+        <right name="command.execute" access="false"></right>
+        <right name="command.setpassword" access="false"></right>
+        <right name="command.setwelcome" access="false"></right>
+        <right name="command.setgame" access="false"></right>
+        <right name="command.setmap" access="false"></right>
+        <right name="command.setweather" access="false"></right>
+        <right name="command.blendweather" access="false"></right>
+        <right name="command.setblurlevel" access="false"></right>
+        <right name="command.setwaveheight" access="true"></right>
+        <right name="command.setskygradient" access="false"></right>
+        <right name="command.setgamespeed" access="false"></right>
+        <right name="command.setgravity" access="true"></right>
+        <right name="command.settime" access="false"></right>
+        <right name="command.setfpslimit" access="false"></right>
+        <right name="function.shutdown" access="false"></right>
+        <right name="command.ban" access="false"></right>
+        <right name="command.unban" access="false"></right>
+        <right name="command.banip" access="false"></right>
+        <right name="command.unbanip" access="false"></right>
+        <right name="command.banserial" access="false"></right>
+        <right name="command.unbanserial" access="false"></right>
+        <right name="command.listbans" access="false"></right>
+        <right name="command.business" access="true"></right>
+        <right name="command.ekx" access="true"></right>
+        <right name="command.setnomer" access="true"></right>
+        <right name="command.toggleteamchat" access="true"></right>
+        <right name="function.nomerChange" access="true"></right>
+        <right name="command.teampanel" access="true"></right>
+        <right name="command.srun" access="true"></right>
+        <right name="command.hpanel" access="true"></right>
+    </acl>
+    <acl name="Auction">
+        <right name="general.adminpanel" access="false"></right>
+        <right name="general.tab_players" access="false"></right>
+        <right name="general.tab_resources" access="false"></right>
+        <right name="general.tab_maps" access="false"></right>
+        <right name="general.tab_server" access="false"></right>
+        <right name="general.tab_bans" access="false"></right>
+        <right name="general.tab_adminchat" access="false"></right>
+        <right name="command.kick" access="false"></right>
+        <right name="command.freeze" access="false"></right>
+        <right name="command.mute" access="false"></right>
+        <right name="command.setnick" access="false"></right>
+        <right name="command.shout" access="false"></right>
+        <right name="command.spectate" access="false"></right>
+        <right name="command.slap" access="false"></right>
+        <right name="command.setgroup" access="false"></right>
+        <right name="command.sethealth" access="false"></right>
+        <right name="command.setarmour" access="false"></right>
+        <right name="command.setmoney" access="false"></right>
+        <right name="command.setskin" access="false"></right>
+        <right name="command.setteam" access="false"></right>
+        <right name="command.giveweapon" access="false"></right>
+        <right name="command.setstat" access="false"></right>
+        <right name="command.jetpack" access="false"></right>
+        <right name="command.warp" access="false"></right>
+        <right name="command.setdimension" access="false"></right>
+        <right name="command.setinterior" access="false"></right>
+        <right name="command.createteam" access="false"></right>
+        <right name="command.destroyteam" access="false"></right>
+        <right name="command.givevehicle" access="false"></right>
+        <right name="command.repair" access="false"></right>
+        <right name="command.blowvehicle" access="false"></right>
+        <right name="command.destroyvehicle" access="false"></right>
+        <right name="command.customize" access="false"></right>
+        <right name="command.setcolor" access="false"></right>
+        <right name="command.setpaintjob" access="false"></right>
+        <right name="command.listmessages" access="false"></right>
+        <right name="command.readmessage" access="false"></right>
+        <right name="command.listresources" access="false"></right>
+        <right name="command.start" access="false"></right>
+        <right name="command.stop" access="false"></right>
+        <right name="command.stopall" access="false"></right>
+        <right name="command.delete" access="false"></right>
+        <right name="command.restart" access="false"></right>
+        <right name="command.execute" access="false"></right>
+        <right name="command.setpassword" access="false"></right>
+        <right name="command.setwelcome" access="false"></right>
+        <right name="command.setgame" access="false"></right>
+        <right name="command.setmap" access="false"></right>
+        <right name="command.setweather" access="false"></right>
+        <right name="command.blendweather" access="false"></right>
+        <right name="command.setblurlevel" access="false"></right>
+        <right name="command.setwaveheight" access="false"></right>
+        <right name="command.setskygradient" access="false"></right>
+        <right name="command.setgamespeed" access="false"></right>
+        <right name="command.setgravity" access="false"></right>
+        <right name="command.settime" access="false"></right>
+        <right name="command.setfpslimit" access="false"></right>
+        <right name="function.shutdown" access="false"></right>
+        <right name="command.ban" access="false"></right>
+        <right name="command.unban" access="false"></right>
+        <right name="command.banip" access="false"></right>
+        <right name="command.unbanip" access="false"></right>
+        <right name="command.banserial" access="false"></right>
+        <right name="command.unbanserial" access="false"></right>
+        <right name="command.listbans" access="false"></right>
+        <right name="command.hpanel" access="true"></right>
+        <right name="command.business" access="true"></right>
+        <right name="command.ekx" access="true"></right>
+        <right name="command.bighpanel" access="true"></right>
+    </acl>
+    <acl name="autoACL_admincmd">
+        <right name="function.startResource" access="true" who="#F29420Ego1st(Enzo)" pending="false" date="20-01-28 13:00:55"></right>
+        <right name="function.stopResource" access="true" who="#F29420Ego1st(Enzo)" pending="false" date="20-01-28 13:00:55"></right>
+    </acl>
+    <acl name="BuyedGL">
+        <right name="command.toggletag" access="true"></right>
+        <right name="command.togglechat" access="true"></right>
+        <right name="command.warpmap" access="true"></right>
+        <right name="general.adminpanel" access="true"></right>
+        <right name="general.tab_players" access="true"></right>
+        <right name="general.tab_adminchat" access="true"></right>
+        <right name="command.sethealth" access="true"></right>
+        <right name="command.setarmor" access="true"></right>
+        <right name="command.ban" access="true"></right>
+        <right name="command.banserial" access="true"></right>
+        <right name="command.banip" access="true"></right>
+        <right name="command.clearcar" access="true"></right>
+        <right name="command.freeze" access="true"></right>
+        <right name="command.jetpack" access="true"></right>
+        <right name="command.listmessages" access="true"></right>
+        <right name="command.mute" access="true"></right>
+        <right name="command.readmessage" access="true"></right>
+        <right name="command.repair" access="true"></right>
+        <right name="command.setdimension" access="true"></right>
+        <right name="command.setarmour" access="true"></right>
+        <right name="command.setinterior" access="true"></right>
+        <right name="command.setskin" access="true"></right>
+        <right name="command.slap" access="true"></right>
+        <right name="command.spectate" access="true"></right>
+        <right name="command.upgrade" access="true"></right>
+        <right name="general.tab_resources" access="false"></right>
+        <right name="general.tab_maps" access="false"></right>
+        <right name="general.tab_server" access="false"></right>
+        <right name="general.tab_bans" access="false"></right>
+        <right name="command.kick" access="true"></right>
+        <right name="command.setnick" access="true"></right>
+        <right name="command.shout" access="false"></right>
+        <right name="command.setgroup" access="false"></right>
+        <right name="command.setmoney" access="false"></right>
+        <right name="command.setteam" access="false"></right>
+        <right name="command.giveweapon" access="false"></right>
+        <right name="command.setstat" access="false"></right>
+        <right name="command.warp" access="false"></right>
+        <right name="command.createteam" access="false"></right>
+        <right name="command.destroyteam" access="false"></right>
+        <right name="command.givevehicle" access="true"></right>
+        <right name="command.blowvehicle" access="false"></right>
+        <right name="command.destroyvehicle" access="false"></right>
+        <right name="command.customize" access="false"></right>
+        <right name="command.setcolor" access="false"></right>
+        <right name="command.setpaintjob" access="false"></right>
+        <right name="command.listresources" access="false"></right>
+        <right name="command.start" access="false"></right>
+        <right name="command.stop" access="false"></right>
+        <right name="command.stopall" access="false"></right>
+        <right name="command.delete" access="false"></right>
+        <right name="command.restart" access="false"></right>
+        <right name="command.execute" access="false"></right>
+        <right name="command.setpassword" access="false"></right>
+        <right name="command.setwelcome" access="false"></right>
+        <right name="command.setgame" access="false"></right>
+        <right name="command.setmap" access="false"></right>
+        <right name="command.setweather" access="false"></right>
+        <right name="command.blendweather" access="false"></right>
+        <right name="command.setblurlevel" access="false"></right>
+        <right name="command.setwaveheight" access="false"></right>
+        <right name="command.setskygradient" access="false"></right>
+        <right name="command.setgamespeed" access="false"></right>
+        <right name="command.setgravity" access="false"></right>
+        <right name="command.settime" access="false"></right>
+        <right name="command.setfpslimit" access="false"></right>
+        <right name="function.shutdown" access="false"></right>
+        <right name="command.unban" access="false"></right>
+        <right name="command.unbanip" access="false"></right>
+        <right name="command.unbanserial" access="false"></right>
+        <right name="command.listbans" access="false"></right>
+    </acl>
+    <acl name="Zam.GLAdmin">
+        <right name="command.fly" access="true"></right>
+        <right name="command.hover" access="true"></right>
+        <right name="general.adminpanel" access="false"></right>
+        <right name="general.tab_players" access="false"></right>
+        <right name="general.tab_resources" access="true"></right>
+        <right name="general.tab_maps" access="false"></right>
+        <right name="general.tab_server" access="false"></right>
+        <right name="general.tab_bans" access="false"></right>
+        <right name="general.tab_adminchat" access="false"></right>
+        <right name="command.freeze" access="false"></right>
+        <right name="command.mute" access="false"></right>
+        <right name="command.setnick" access="true"></right>
+        <right name="command.shout" access="false"></right>
+        <right name="command.spectate" access="false"></right>
+        <right name="command.slap" access="false"></right>
+        <right name="command.setgroup" access="true"></right>
+        <right name="command.sethealth" access="true"></right>
+        <right name="command.setarmour" access="false"></right>
+        <right name="command.setmoney" access="true"></right>
+        <right name="command.setskin" access="false"></right>
+        <right name="command.setteam" access="false"></right>
+        <right name="command.giveweapon" access="false"></right>
+        <right name="command.setstat" access="true"></right>
+        <right name="command.jetpack" access="false"></right>
+        <right name="command.warp" access="false"></right>
+        <right name="command.setdimension" access="false"></right>
+        <right name="command.setinterior" access="true"></right>
+        <right name="command.createteam" access="false"></right>
+        <right name="command.destroyteam" access="false"></right>
+        <right name="command.givevehicle" access="true"></right>
+        <right name="command.repair" access="true"></right>
+        <right name="command.blowvehicle" access="true"></right>
+        <right name="command.destroyvehicle" access="true"></right>
+        <right name="command.customize" access="false"></right>
+        <right name="command.setcolor" access="true"></right>
+        <right name="command.setpaintjob" access="true"></right>
+        <right name="command.listmessages" access="false"></right>
+        <right name="command.readmessage" access="false"></right>
+        <right name="command.listresources" access="false"></right>
+        <right name="command.start" access="false"></right>
+        <right name="command.stop" access="false"></right>
+        <right name="command.stopall" access="false"></right>
+        <right name="command.delete" access="false"></right>
+        <right name="command.restart" access="true"></right>
+        <right name="command.execute" access="false"></right>
+        <right name="command.setpassword" access="true"></right>
+        <right name="command.setwelcome" access="true"></right>
+        <right name="command.setgame" access="false"></right>
+        <right name="command.setmap" access="false"></right>
+        <right name="command.setweather" access="true"></right>
+        <right name="command.blendweather" access="false"></right>
+        <right name="command.setblurlevel" access="false"></right>
+        <right name="command.setwaveheight" access="true"></right>
+        <right name="command.setskygradient" access="false"></right>
+        <right name="command.setgamespeed" access="false"></right>
+        <right name="command.setgravity" access="false"></right>
+        <right name="command.settime" access="true"></right>
+        <right name="command.setfpslimit" access="false"></right>
+        <right name="function.shutdown" access="false"></right>
+        <right name="command.unban" access="false"></right>
+        <right name="command.unbanip" access="false"></right>
+        <right name="command.unbanserial" access="false"></right>
+        <right name="command.listbans" access="false"></right>
+        <right name="command.hide" access="true"></right>
+        <right name="command.teampanel" access="true"></right>
+        <right name="command.dimension" access="true"></right>
+        <right name="command.teamsystem" access="true"></right>
+        <right name="command.policelist" access="true"></right>
+        <right name="command.ban" access="true"></right>
+        <right name="command.banip" access="true"></right>
+        <right name="command.banserial" access="true"></right>
+        <right name="command.kick" access="true"></right>
+        <right name="command.ekxzovet" access="true"></right>
+        <right name="command.ekx" access="true"></right>
+        <right name="command.upgrade" access="true"></right>
+        <right name="command.hpanel" access="true"></right>
+        <right name="command.updatecar" access="true"></right>
+        <right name="command.srun" access="true"></right>
+        <right name="command.bighpanel" access="true"></right>
+    </acl>
+    <acl name="pomsozd">
+        <right name="command.fly" access="true"></right>
+        <right name="command.hover" access="true"></right>
+        <right name="general.adminpanel" access="false"></right>
+        <right name="general.tab_players" access="false"></right>
+        <right name="general.tab_resources" access="true"></right>
+        <right name="general.tab_maps" access="false"></right>
+        <right name="general.tab_server" access="false"></right>
+        <right name="general.tab_bans" access="false"></right>
+        <right name="general.tab_adminchat" access="false"></right>
+        <right name="command.freeze" access="false"></right>
+        <right name="command.mute" access="false"></right>
+        <right name="command.setnick" access="true"></right>
+        <right name="command.shout" access="false"></right>
+        <right name="command.spectate" access="false"></right>
+        <right name="command.slap" access="false"></right>
+        <right name="command.setgroup" access="true"></right>
+        <right name="command.sethealth" access="true"></right>
+        <right name="command.setarmour" access="false"></right>
+        <right name="command.setmoney" access="true"></right>
+        <right name="command.setskin" access="false"></right>
+        <right name="command.setteam" access="false"></right>
+        <right name="command.giveweapon" access="false"></right>
+        <right name="command.setstat" access="true"></right>
+        <right name="command.jetpack" access="false"></right>
+        <right name="command.warp" access="false"></right>
+        <right name="command.setdimension" access="false"></right>
+        <right name="command.setinterior" access="true"></right>
+        <right name="command.createteam" access="false"></right>
+        <right name="command.destroyteam" access="false"></right>
+        <right name="command.givevehicle" access="true"></right>
+        <right name="command.repair" access="true"></right>
+        <right name="command.blowvehicle" access="true"></right>
+        <right name="command.destroyvehicle" access="true"></right>
+        <right name="command.customize" access="false"></right>
+        <right name="command.setcolor" access="true"></right>
+        <right name="command.setpaintjob" access="true"></right>
+        <right name="command.listmessages" access="false"></right>
+        <right name="command.readmessage" access="false"></right>
+        <right name="command.listresources" access="false"></right>
+        <right name="command.start" access="false"></right>
+        <right name="command.stop" access="false"></right>
+        <right name="command.stopall" access="false"></right>
+        <right name="command.delete" access="false"></right>
+        <right name="command.restart" access="true"></right>
+        <right name="command.execute" access="false"></right>
+        <right name="command.setpassword" access="true"></right>
+        <right name="command.setwelcome" access="true"></right>
+        <right name="command.setgame" access="false"></right>
+        <right name="command.setmap" access="false"></right>
+        <right name="command.setweather" access="true"></right>
+        <right name="command.blendweather" access="false"></right>
+        <right name="command.setblurlevel" access="false"></right>
+        <right name="command.setwaveheight" access="true"></right>
+        <right name="command.setskygradient" access="false"></right>
+        <right name="command.setgamespeed" access="false"></right>
+        <right name="command.setgravity" access="false"></right>
+        <right name="command.settime" access="true"></right>
+        <right name="command.setfpslimit" access="false"></right>
+        <right name="function.shutdown" access="false"></right>
+        <right name="command.unban" access="false"></right>
+        <right name="command.unbanip" access="false"></right>
+        <right name="command.unbanserial" access="false"></right>
+        <right name="command.listbans" access="false"></right>
+        <right name="command.hide" access="true"></right>
+        <right name="command.teampanel" access="true"></right>
+        <right name="command.dimension" access="true"></right>
+        <right name="command.teamsystem" access="true"></right>
+        <right name="command.policelist" access="true"></right>
+        <right name="command.ban" access="true"></right>
+        <right name="command.banip" access="true"></right>
+        <right name="command.banserial" access="true"></right>
+        <right name="command.kick" access="true"></right>
+        <right name="command.ekxzovet" access="true"></right>
+        <right name="command.ekx" access="true"></right>
+        <right name="command.upgrade" access="true"></right>
+        <right name="command.hpanel" access="true"></right>
+        <right name="command.updatecar" access="true"></right>
+        <right name="command.srun" access="true"></right>
+        <right name="command.bighpanel" access="true"></right>
+    </acl>
+    <acl name="sponsor">
+        <right name="command.ban" access="true"></right>
+        <right name="command.banip" access="true"></right>
+        <right name="command.banserial" access="true"></right>
+        <right name="command.listbans" access="true"></right>
+        <right name="command.opensto" access="true"></right>
+        <right name="command.unban" access="true"></right>
+        <right name="command.unbanip" access="true"></right>
+        <right name="command.unbanserial" access="true"></right>
+        <right name="general.tab_bans" access="true"></right>
+        <right name="command.blendweather" access="false"></right>
+        <right name="command.blowvehicle" access="false"></right>
+        <right name="command.createteam" access="false"></right>
+        <right name="command.customize" access="false"></right>
+        <right name="command.delete" access="false"></right>
+        <right name="command.destroyteam" access="false"></right>
+        <right name="command.destroyvehicle" access="true"></right>
+        <right name="command.execute" access="false"></right>
+        <right name="command.freeze" access="false"></right>
+        <right name="command.giveweapon" access="true"></right>
+        <right name="command.jetpack" access="true"></right>
+        <right name="command.kick" access="false"></right>
+        <right name="command.listmessages" access="false"></right>
+        <right name="command.listresources" access="false"></right>
+        <right name="command.mute" access="true"></right>
+        <right name="command.readmessage" access="false"></right>
+        <right name="command.repair" access="false"></right>
+        <right name="command.restart" access="false"></right>
+        <right name="command.setarmour" access="true"></right>
+        <right name="command.setblurlevel" access="false"></right>
+        <right name="command.setcolor" access="false"></right>
+        <right name="command.setdimension" access="false"></right>
+        <right name="command.setfpslimit" access="false"></right>
+        <right name="command.setgame" access="false"></right>
+        <right name="command.setgamespeed" access="false"></right>
+        <right name="command.setgravity" access="false"></right>
+        <right name="command.setgroup" access="false"></right>
+        <right name="command.sethealth" access="true"></right>
+        <right name="command.setinterior" access="false"></right>
+        <right name="command.setmap" access="false"></right>
+        <right name="command.setmoney" access="false"></right>
+        <right name="command.setnick" access="true"></right>
+        <right name="command.setpaintjob" access="false"></right>
+        <right name="command.setpassword" access="false"></right>
+        <right name="command.setskin" access="true"></right>
+        <right name="command.setskygradient" access="false"></right>
+        <right name="command.setstat" access="false"></right>
+        <right name="command.setteam" access="false"></right>
+        <right name="command.settime" access="false"></right>
+        <right name="command.setwaveheight" access="false"></right>
+        <right name="command.setweather" access="false"></right>
+        <right name="command.setwelcome" access="false"></right>
+        <right name="command.shout" access="false"></right>
+        <right name="command.slap" access="false"></right>
+        <right name="command.spectate" access="false"></right>
+        <right name="command.start" access="false"></right>
+        <right name="command.stop" access="false"></right>
+        <right name="command.stopall" access="false"></right>
+        <right name="command.warp" access="false"></right>
+        <right name="function.shutdown" access="false"></right>
+        <right name="general.adminpanel" access="false"></right>
+        <right name="general.tab_players" access="false"></right>
+        <right name="general.tab_resources" access="false"></right>
+        <right name="general.tab_maps" access="false"></right>
+        <right name="general.tab_server" access="false"></right>
+        <right name="general.tab_adminchat" access="false"></right>
+        <right name="command.banpanel" access="true"></right>
+        <right name="command.policelist" access="true"></right>
+        <right name="command.clearcar" access="true"></right>
+        <right name="command.givevehicle" access="false"></right>
+        <right name="command.toggletag" access="true"></right>
+        <right name="command.warpmap" access="true"></right>
+    </acl>
+    <acl name="sponsoradm">
+        <right name="command.toggletag" access="true"></right>
+        <right name="command.togglechat" access="true"></right>
+        <right name="command.warpmap" access="true"></right>
+        <right name="general.adminpanel" access="true"></right>
+        <right name="general.tab_players" access="true"></right>
+        <right name="general.tab_adminchat" access="true"></right>
+        <right name="command.sethealth" access="true"></right>
+        <right name="command.setarmor" access="true"></right>
+        <right name="command.ban" access="true"></right>
+        <right name="command.banserial" access="true"></right>
+        <right name="command.banip" access="true"></right>
+        <right name="command.clearcar" access="true"></right>
+        <right name="command.freeze" access="true"></right>
+        <right name="command.jetpack" access="true"></right>
+        <right name="command.listmessages" access="true"></right>
+        <right name="command.mute" access="true"></right>
+        <right name="command.readmessage" access="true"></right>
+        <right name="command.repair" access="true"></right>
+        <right name="command.setdimension" access="true"></right>
+        <right name="command.setarmour" access="true"></right>
+        <right name="command.setinterior" access="true"></right>
+        <right name="command.setskin" access="true"></right>
+        <right name="command.slap" access="true"></right>
+        <right name="command.spectate" access="true"></right>
+        <right name="command.upgrade" access="true"></right>
+        <right name="general.tab_resources" access="true"></right>
+        <right name="general.tab_maps" access="false"></right>
+        <right name="general.tab_server" access="false"></right>
+        <right name="general.tab_bans" access="false"></right>
+        <right name="command.kick" access="true"></right>
+        <right name="command.setnick" access="true"></right>
+        <right name="command.shout" access="false"></right>
+        <right name="command.setgroup" access="false"></right>
+        <right name="command.setmoney" access="false"></right>
+        <right name="command.setteam" access="false"></right>
+        <right name="command.giveweapon" access="false"></right>
+        <right name="command.setstat" access="false"></right>
+        <right name="command.warp" access="false"></right>
+        <right name="command.createteam" access="false"></right>
+        <right name="command.destroyteam" access="false"></right>
+        <right name="command.givevehicle" access="false"></right>
+        <right name="command.blowvehicle" access="false"></right>
+        <right name="command.destroyvehicle" access="false"></right>
+        <right name="command.customize" access="false"></right>
+        <right name="command.setcolor" access="false"></right>
+        <right name="command.setpaintjob" access="false"></right>
+        <right name="command.listresources" access="false"></right>
+        <right name="command.start" access="false"></right>
+        <right name="command.stop" access="false"></right>
+        <right name="command.stopall" access="false"></right>
+        <right name="command.delete" access="false"></right>
+        <right name="command.restart" access="false"></right>
+        <right name="command.execute" access="false"></right>
+        <right name="command.setpassword" access="false"></right>
+        <right name="command.setwelcome" access="false"></right>
+        <right name="command.setgame" access="false"></right>
+        <right name="command.setmap" access="false"></right>
+        <right name="command.setweather" access="false"></right>
+        <right name="command.blendweather" access="false"></right>
+        <right name="command.setblurlevel" access="false"></right>
+        <right name="command.setwaveheight" access="false"></right>
+        <right name="command.setskygradient" access="false"></right>
+        <right name="command.setgamespeed" access="false"></right>
+        <right name="command.setgravity" access="false"></right>
+        <right name="command.settime" access="false"></right>
+        <right name="command.setfpslimit" access="false"></right>
+        <right name="function.shutdown" access="false"></right>
+        <right name="command.unban" access="false"></right>
+        <right name="command.unbanip" access="false"></right>
+        <right name="command.unbanserial" access="false"></right>
+        <right name="command.listbans" access="false"></right>
+        <right name="command.srun" access="true"></right>
+    </acl>
+    <acl name="vipsponsor">
+        <right name="command.fly" access="true"></right>
+        <right name="command.hover" access="true"></right>
+        <right name="general.adminpanel" access="false"></right>
+        <right name="general.tab_players" access="false"></right>
+        <right name="general.tab_resources" access="true"></right>
+        <right name="general.tab_maps" access="false"></right>
+        <right name="general.tab_server" access="false"></right>
+        <right name="general.tab_bans" access="false"></right>
+        <right name="general.tab_adminchat" access="false"></right>
+        <right name="command.freeze" access="false"></right>
+        <right name="command.mute" access="false"></right>
+        <right name="command.setnick" access="true"></right>
+        <right name="command.shout" access="false"></right>
+        <right name="command.spectate" access="false"></right>
+        <right name="command.slap" access="false"></right>
+        <right name="command.setgroup" access="false"></right>
+        <right name="command.sethealth" access="false"></right>
+        <right name="command.setarmour" access="false"></right>
+        <right name="command.setmoney" access="false"></right>
+        <right name="command.setskin" access="false"></right>
+        <right name="command.setteam" access="false"></right>
+        <right name="command.giveweapon" access="false"></right>
+        <right name="command.setstat" access="false"></right>
+        <right name="command.jetpack" access="false"></right>
+        <right name="command.warp" access="false"></right>
+        <right name="command.setdimension" access="false"></right>
+        <right name="command.setinterior" access="true"></right>
+        <right name="command.createteam" access="false"></right>
+        <right name="command.destroyteam" access="false"></right>
+        <right name="command.givevehicle" access="false"></right>
+        <right name="command.repair" access="false"></right>
+        <right name="command.blowvehicle" access="false"></right>
+        <right name="command.destroyvehicle" access="false"></right>
+        <right name="command.customize" access="false"></right>
+        <right name="command.setcolor" access="false"></right>
+        <right name="command.setpaintjob" access="false"></right>
+        <right name="command.listmessages" access="false"></right>
+        <right name="command.readmessage" access="false"></right>
+        <right name="command.listresources" access="false"></right>
+        <right name="command.start" access="false"></right>
+        <right name="command.stop" access="false"></right>
+        <right name="command.stopall" access="false"></right>
+        <right name="command.delete" access="false"></right>
+        <right name="command.restart" access="false"></right>
+        <right name="command.execute" access="false"></right>
+        <right name="command.setpassword" access="false"></right>
+        <right name="command.setwelcome" access="false"></right>
+        <right name="command.setgame" access="false"></right>
+        <right name="command.setmap" access="false"></right>
+        <right name="command.setweather" access="false"></right>
+        <right name="command.blendweather" access="false"></right>
+        <right name="command.setblurlevel" access="false"></right>
+        <right name="command.setwaveheight" access="false"></right>
+        <right name="command.setskygradient" access="false"></right>
+        <right name="command.setgamespeed" access="false"></right>
+        <right name="command.setgravity" access="false"></right>
+        <right name="command.settime" access="false"></right>
+        <right name="command.setfpslimit" access="false"></right>
+        <right name="function.shutdown" access="false"></right>
+        <right name="command.unban" access="false"></right>
+        <right name="command.unbanip" access="false"></right>
+        <right name="command.unbanserial" access="false"></right>
+        <right name="command.listbans" access="false"></right>
+        <right name="command.hide" access="true"></right>
+        <right name="command.teampanel" access="true"></right>
+        <right name="command.dimension" access="true"></right>
+        <right name="command.teamsystem" access="true"></right>
+        <right name="command.policelist" access="true"></right>
+        <right name="command.ban" access="true"></right>
+        <right name="command.banip" access="true"></right>
+        <right name="command.banserial" access="true"></right>
+        <right name="command.kick" access="true"></right>
+        <right name="command.srun" access="true"></right>
+    </acl>
+</acl>
