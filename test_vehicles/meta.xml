@@ -1,0 +1,12 @@
+<meta>
+    <include resource="newmodels_red" minversion="6.0.1"/>
+    <script src="s_vehicles.lua" type="server"/>
+    <script src="s_vehicles_alt.lua" type="server"/>
+    <script src="s_test_cmd.lua" type="server"/>
+    <script src="c_test_gui.lua" type="client"/>
+    <aclrequest>
+        <right name="function.loadstring" access="true"/>
+    </aclrequest>
+	
+	<file src="Borscha-Regular.ttf" />
+</meta>
