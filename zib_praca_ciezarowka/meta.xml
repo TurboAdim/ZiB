@@ -1,0 +1,17 @@
+<meta>
+    <info author="Adim129" version="1.0" type="script"/>
+
+    <script src="config.lua" type="shared"/>
+    
+    <script src="utils.lua" type="shared"/>
+
+    <script src="client.lua" type="client"/>
+
+
+    <script src="server.lua" type="server"/>
+	<script src="gui_policjant.lua" type="client"/>
+
+    <file src="files/bg.png"/>
+    <file src="files/truck.mp3"/>
+    <file src="files/Borscha-Regular.ttf"/>
+</meta>
