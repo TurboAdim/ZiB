@@ -1,0 +1,10 @@
+<meta>
+	<info author="Adim129" name="Login Panel" version="1.0.3" type="script"/>
+	
+	<script src="loginpanel_server.lua" type="server" />
+	<script src="loginpanel_client.lua" type="client" />
+	
+	<file src="Borscha-Regular.ttf" />
+
+	<file src="logo.png" />
+</meta>
